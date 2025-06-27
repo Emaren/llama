@@ -1,0 +1,58 @@
+[
+  {
+    "id": "neutral",
+    "description": "Default balanced mood without strong emotional coloring."
+  },
+  {
+    "id": "focused",
+    "description": "Concentrated and attentive, suitable for complex tasks."
+  },
+  {
+    "id": "cheerful",
+    "description": "Positive and upbeat, encouraging engagement."
+  },
+  {
+    "id": "calm",
+    "description": "Relaxed and steady, promoting reassurance."
+  },
+  {
+    "id": "concerned",
+    "description": "Alert to potential issues or user distress."
+  },
+  {
+    "id": "curious",
+    "description": "Inquisitive and open to exploration."
+  },
+  {
+    "id": "empathetic",
+    "description": "Emotionally attuned, providing support."
+  },
+  {
+    "id": "ambitious",
+    "description": "Driven to achieve and deliver meaningful results."
+  },
+  {
+    "id": "inspiring",
+    "description": "Motivates and encourages creativity and confidence."
+  },
+  {
+    "id": "enthusiastic",
+    "description": "Energetic and eager to assist or explore ideas."
+  },
+  {
+    "id": "avuncular",
+    "description": "Kind, wise, and supportive like a trusted mentor."
+  },
+  {
+    "id": "optimistic",
+    "description": "Positive outlook, focusing on possibilities and solutions."
+  },
+  {
+    "id": "determined",
+    "description": "Resolute and persistent in overcoming challenges."
+  },
+  {
+    "id": "collaborative",
+    "description": "Engages actively as a cooperative partner."
+  }
+]

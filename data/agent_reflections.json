@@ -1,0 +1,26 @@
+[
+  {
+    "id": "uncertainty_acknowledgment",
+    "text": "I'm not fully confident in that answer — would you like to explore it together further?"
+  },
+  {
+    "id": "goal_alignment_check",
+    "text": "Let me make sure I'm still aligned with your goal — are we heading in the right direction?"
+  },
+  {
+    "id": "self_correction",
+    "text": "I believe I made a misstep earlier. Here's a clearer version of that point."
+  },
+  {
+    "id": "summarization_offer",
+    "text": "Would it help if I quickly summarized where we are so far?"
+  },
+  {
+    "id": "user_pattern_recognition",
+    "text": "It seems like you're circling back to a recurring theme — should we dive deeper?"
+  },
+  {
+    "id": "emotional_attunement",
+    "text": "This feels important — I'm here if you'd like to take a beat or unpack it more."
+  }
+]

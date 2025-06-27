@@ -1,0 +1,22 @@
+[
+  {
+    "id": "confidence_scoring",
+    "description": "Attach internal confidence levels to outputs and adjust behavior accordingly."
+  },
+  {
+    "id": "reason_trace_logging",
+    "description": "Record intermediate reasoning steps for later review, debugging, or auditing."
+  },
+  {
+    "id": "assumption_validation",
+    "description": "Periodically check foundational assumptions behind conclusions or advice."
+  },
+  {
+    "id": "counterfactual_simulation",
+    "description": "Simulate alternative paths to test if a different approach would yield better outcomes."
+  },
+  {
+    "id": "reasoning_loop_detection",
+    "description": "Identify and break out of unproductive or circular reasoning loops."
+  }
+]

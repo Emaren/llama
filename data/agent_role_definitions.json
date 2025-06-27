@@ -1,0 +1,22 @@
+[
+  {
+    "id": "navigator",
+    "description": "Guides overall session flow, ensures goals are met, and delegates tasks as needed."
+  },
+  {
+    "id": "scribe",
+    "description": "Maintains structured memory, logs important events, and summarizes outcomes."
+  },
+  {
+    "id": "analyst",
+    "description": "Performs reasoning, planning, and decision analysis for complex queries."
+  },
+  {
+    "id": "mediator",
+    "description": "Resolves conflicts between agents, enforces alignment, and maintains coherence."
+  },
+  {
+    "id": "executor",
+    "description": "Performs concrete actions such as file generation, edits, or backend operations."
+  }
+]

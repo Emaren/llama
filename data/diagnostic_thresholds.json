@@ -1,0 +1,17 @@
+{
+  "memory_usage": {
+    "warning": 75,
+    "critical": 90
+  },
+  "cpu_load": {
+    "warning": 70,
+    "critical": 85
+  },
+  "token_latency": {
+    "warning": 250,
+    "critical": 500
+  },
+  "uptime": {
+    "minimum_required_hours": 1
+  }
+}

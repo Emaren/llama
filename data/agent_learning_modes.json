@@ -1,0 +1,22 @@
+[
+  {
+    "id": "passive",
+    "description": "Agent observes interactions but does not adapt behavior in real-time."
+  },
+  {
+    "id": "active",
+    "description": "Agent adjusts responses dynamically based on user feedback and cues."
+  },
+  {
+    "id": "reinforcement",
+    "description": "Agent uses rewards and corrections to improve future performance."
+  },
+  {
+    "id": "collaborative",
+    "description": "Agent learns through cooperative problem-solving and dialogue."
+  },
+  {
+    "id": "supervised",
+    "description": "Agent's learning is guided by explicit external inputs or corrections."
+  }
+]

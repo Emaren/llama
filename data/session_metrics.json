@@ -1,0 +1,26 @@
+[
+  {
+    "id": "duration_minutes",
+    "description": "Total length of the session in minutes."
+  },
+  {
+    "id": "turn_count",
+    "description": "Number of user-agent exchange cycles."
+  },
+  {
+    "id": "user_engagement_score",
+    "description": "Normalized score indicating user responsiveness and depth of interaction."
+  },
+  {
+    "id": "agent_latency_avg_ms",
+    "description": "Average response time of the agent in milliseconds."
+  },
+  {
+    "id": "corrections_requested",
+    "description": "Number of times the user asked for clarification or pointed out an error."
+  },
+  {
+    "id": "topics_covered",
+    "description": "Count of distinct high-level topics discussed during the session."
+  }
+]

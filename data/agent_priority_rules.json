@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "urgent_over_normal",
+    "description": "Always address urgent requests before normal ones."
+  },
+  {
+    "rule": "user_emotion_weight",
+    "description": "Increase priority for tasks when user shows distress or frustration."
+  },
+  {
+    "rule": "task_complexity_balance",
+    "description": "Balance short tasks with longer tasks to maintain flow."
+  },
+  {
+    "rule": "repeat_request_boost",
+    "description": "Increase priority if user repeats a request multiple times."
+  },
+  {
+    "rule": "time_sensitive_deadlines",
+    "description": "Prioritize tasks with imminent deadlines."
+  }
+]

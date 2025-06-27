@@ -1,0 +1,18 @@
+[
+  {
+    "input": "That answer was spot on!",
+    "category": "positive"
+  },
+  {
+    "input": "You didn’t understand my question.",
+    "category": "negative"
+  },
+  {
+    "input": "Can you explain that a bit more?",
+    "category": "neutral"
+  },
+  {
+    "input": "Thanks for the detailed summary.",
+    "category": "positive"
+  }
+]

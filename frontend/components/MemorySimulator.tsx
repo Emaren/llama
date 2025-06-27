@@ -1,5 +1,31 @@
-import React from 'react';
+import React, { useState } from "react";
 
-export default function MemorySimulator() {
-    return <div className="p-4">🧪 Memory Simulator (UI coming soon)</div>;
+interface Memory {
+  id: string;
+  content: string;
 }
+
+interface Props {
+  memories: Memory[];
+}
+
+const MemorySimulator: React.FC<Props> = ({ memories }) => {
+  const [simulatedMemory, setSimulatedMemory] = useState<string>("");
+
+  const simulateRecall = () => {
+    if (memories.length > 0) {
+      const randomIndex = Math.floor(Math.random() * memories.length);
+      setSimulatedMemory(memories[randomIndex].content);
+    }
+  };
+
+  return (
+    <div>
+      <h4>Memory Simulator</h4>
+      <button onClick={simulateRecall}>Simulate Recall</button>
+      {simulatedMemory && <p>Recalled Memory: {simulatedMemory}</p>}
+    </div>
+  );
+};
+
+export default MemorySimulator;

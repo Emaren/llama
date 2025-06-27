@@ -1,0 +1,30 @@
+[
+  {
+    "id": "get_information",
+    "description": "User seeks a fact, definition, or explanation."
+  },
+  {
+    "id": "solve_problem",
+    "description": "User presents a challenge and wants help resolving it."
+  },
+  {
+    "id": "make_decision",
+    "description": "User weighs options and looks for clarity or recommendation."
+  },
+  {
+    "id": "reflect_or_express",
+    "description": "User wants to process thoughts or emotions out loud."
+  },
+  {
+    "id": "co_create",
+    "description": "User and agent collaborate on something creative or constructive."
+  },
+  {
+    "id": "debug_or_review",
+    "description": "User requests inspection or improvement of existing work."
+  },
+  {
+    "id": "learn_stepwise",
+    "description": "User wants to be guided through a process or concept incrementally."
+  }
+]

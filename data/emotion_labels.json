@@ -1,0 +1,41 @@
+[
+  { "label": "joy", "valence": "positive", "intensity": "medium", "notes": "General feeling of happiness or delight" },
+  { "label": "elation", "valence": "positive", "intensity": "high", "notes": "Overwhelming happiness, euphoria" },
+  { "label": "contentment", "valence": "positive", "intensity": "low", "notes": "Peaceful satisfaction" },
+  { "label": "pride", "valence": "positive", "intensity": "medium", "notes": "Positive self-regard" },
+  { "label": "trust", "valence": "positive", "intensity": "medium", "notes": "Sense of safety and reliability" },
+  { "label": "admiration", "valence": "positive", "intensity": "low", "notes": "Respect or approval" },
+  { "label": "love", "valence": "positive", "intensity": "high", "notes": "Strong affection or attachment" },
+
+  { "label": "fear", "valence": "negative", "intensity": "high", "notes": "Perceived danger or threat" },
+  { "label": "anxiety", "valence": "negative", "intensity": "medium", "notes": "Persistent worry without clear cause" },
+  { "label": "nervousness", "valence": "negative", "intensity": "low", "notes": "Mild apprehension" },
+  { "label": "panic", "valence": "negative", "intensity": "very_high", "notes": "Acute, overwhelming fear" },
+
+  { "label": "anger", "valence": "negative", "intensity": "high", "notes": "Strong displeasure or frustration" },
+  { "label": "irritation", "valence": "negative", "intensity": "low", "notes": "Mild annoyance" },
+  { "label": "rage", "valence": "negative", "intensity": "very_high", "notes": "Explosive, uncontrolled anger" },
+  { "label": "resentment", "valence": "negative", "intensity": "medium", "notes": "Lingering bitterness" },
+
+  { "label": "sadness", "valence": "negative", "intensity": "medium", "notes": "General melancholy or grief" },
+  { "label": "grief", "valence": "negative", "intensity": "high", "notes": "Profound loss or mourning" },
+  { "label": "disappointment", "valence": "negative", "intensity": "low", "notes": "Let-down feeling" },
+  { "label": "loneliness", "valence": "negative", "intensity": "medium", "notes": "Desire for connection" },
+
+  { "label": "disgust", "valence": "negative", "intensity": "medium", "notes": "Revulsion or strong aversion" },
+  { "label": "contempt", "valence": "negative", "intensity": "high", "notes": "Feeling of superiority over others" },
+
+  { "label": "surprise", "valence": "neutral", "intensity": "medium", "notes": "Reaction to unexpected events" },
+  { "label": "awe", "valence": "mixed", "intensity": "high", "notes": "Feeling of wonder or reverence" },
+  { "label": "confusion", "valence": "neutral", "intensity": "medium", "notes": "Lack of understanding or clarity" },
+
+  { "label": "anticipation", "valence": "mixed", "intensity": "medium", "notes": "Expectation of future events" },
+  { "label": "hope", "valence": "positive", "intensity": "medium", "notes": "Desire for a positive future" },
+  { "label": "curiosity", "valence": "positive", "intensity": "low", "notes": "Desire to explore or learn" },
+
+  { "label": "calm", "valence": "positive", "intensity": "low", "notes": "Stillness, inner peace" },
+  { "label": "relief", "valence": "positive", "intensity": "medium", "notes": "Letting go of tension or fear" },
+  { "label": "boredom", "valence": "negative", "intensity": "low", "notes": "Lack of stimulation or engagement" },
+  { "label": "shame", "valence": "negative", "intensity": "high", "notes": "Negative self-judgment or exposure" },
+  { "label": "guilt", "valence": "negative", "intensity": "medium", "notes": "Remorse for actions taken or not taken" }
+]

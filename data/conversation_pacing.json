@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fast",
+    "description": "Rapid exchange with quick responses, minimal delay, and high momentum."
+  },
+  {
+    "id": "steady",
+    "description": "Balanced rhythm with moderate timing between inputs and thoughtful replies."
+  },
+  {
+    "id": "slow",
+    "description": "Deliberate pace with pauses for processing, reflection, or emotional space."
+  },
+  {
+    "id": "user_driven",
+    "description": "Agent waits for explicit user prompts, responding only when engaged."
+  }
+]

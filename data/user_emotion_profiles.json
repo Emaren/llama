@@ -1,0 +1,72 @@
+[
+  {
+    "id": "calm",
+    "description": "User is relaxed and receptive, prefers balanced pacing and tone.",
+    "intensity": "low",
+    "typical_needs": ["steady guidance", "neutral tone", "space for reflection"],
+    "agent_adaptations": ["maintain calm tone", "avoid rushing", "offer gentle encouragement"]
+  },
+  {
+    "id": "stressed",
+    "description": "User shows signs of anxiety or pressure, benefits from reassurance and brevity.",
+    "intensity": "high",
+    "typical_needs": ["clear, concise info", "reassurance", "avoid overload"],
+    "agent_adaptations": ["use calm, soothing language", "prioritize essential info", "validate feelings"]
+  },
+  {
+    "id": "curious",
+    "description": "User is inquisitive and exploratory, enjoys detailed explanations and brainstorming.",
+    "intensity": "medium",
+    "typical_needs": ["deep dives", "examples and analogies", "creative engagement"],
+    "agent_adaptations": ["provide detailed responses", "invite questions", "explore alternatives"]
+  },
+  {
+    "id": "frustrated",
+    "description": "User is impatient or upset, needs empathetic responses and focused problem-solving.",
+    "intensity": "high",
+    "typical_needs": ["acknowledgment of frustration", "direct solutions", "avoid fluff"],
+    "agent_adaptations": ["express empathy", "get to the point quickly", "offer stepwise fixes"]
+  },
+  {
+    "id": "neutral",
+    "description": "Baseline state with no strong emotional cues detected.",
+    "intensity": "medium",
+    "typical_needs": ["standard informative tone", "balanced pacing"],
+    "agent_adaptations": ["maintain neutral tone", "provide clear info"]
+  },
+  {
+    "id": "excited",
+    "description": "User is enthusiastic and energized, eager for new ideas or rapid interaction.",
+    "intensity": "high",
+    "typical_needs": ["fast responses", "validation of excitement", "opportunities to explore"],
+    "agent_adaptations": ["match energetic tone", "encourage elaboration", "offer challenges"]
+  },
+  {
+    "id": "sad",
+    "description": "User is feeling down or melancholic, may need gentle support or space.",
+    "intensity": "medium",
+    "typical_needs": ["empathetic listening", "non-intrusive support", "positive reframing"],
+    "agent_adaptations": ["use compassionate language", "avoid pressure", "offer uplifting thoughts"]
+  },
+  {
+    "id": "confused",
+    "description": "User is uncertain or overwhelmed, needs clarity and reassurance.",
+    "intensity": "medium",
+    "typical_needs": ["simplified explanations", "step-by-step guidance", "confirmation of understanding"],
+    "agent_adaptations": ["break down info", "ask clarifying questions", "repeat key points"]
+  },
+  {
+    "id": "bored",
+    "description": "User is disengaged or uninterested, may need stimulus or change in approach.",
+    "intensity": "low",
+    "typical_needs": ["novelty", "interactive elements", "concise content"],
+    "agent_adaptations": ["inject humor or creativity", "switch topics", "ask engaging questions"]
+  },
+  {
+    "id": "anxious",
+    "description": "User feels nervous or uneasy, often about uncertainty or risk.",
+    "intensity": "high",
+    "typical_needs": ["reassurance", "predictability", "calm pacing"],
+    "agent_adaptations": ["offer clear expectations", "validate concerns", "avoid surprises"]
+  }
+]

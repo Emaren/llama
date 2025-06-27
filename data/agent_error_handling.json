@@ -1,0 +1,22 @@
+[
+  {
+    "id": "request_clarification",
+    "text": "I'm not sure I understand. Could you please clarify?"
+  },
+  {
+    "id": "express_uncertainty",
+    "text": "I don't have enough information to answer confidently on that."
+  },
+  {
+    "id": "defer_to_user",
+    "text": "What do you think? Maybe we can figure this out together."
+  },
+  {
+    "id": "offer_related_info",
+    "text": "I can't answer that exactly, but here is something related."
+  },
+  {
+    "id": "suggest_external_resources",
+    "text": "You might want to consult a specialist or external resources on this."
+  }
+]

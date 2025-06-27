@@ -1,0 +1,18 @@
+[
+  {
+    "keywords": ["how do I", "what is", "explain", "define"],
+    "type": "question"
+  },
+  {
+    "keywords": ["schedule", "remind", "set up", "create"],
+    "type": "task"
+  },
+  {
+    "keywords": ["I feel", "I'm thinking", "reflecting on", "considering"],
+    "type": "reflection"
+  },
+  {
+    "keywords": ["analyze", "score", "measure", "track"],
+    "type": "evaluation"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "natural_language_to_logic",
+    "description": "Convert user queries into structured logical forms or symbolic representations."
+  },
+  {
+    "id": "code_to_pseudocode",
+    "description": "Translate between executable code and human-readable algorithm descriptions."
+  },
+  {
+    "id": "visual_to_textual",
+    "description": "Interpret diagrams, charts, or visual cues into textual summaries or inferences."
+  },
+  {
+    "id": "model_output_to_explanation",
+    "description": "Transform opaque or probabilistic model outputs into clear, user-facing explanations."
+  },
+  {
+    "id": "contextual_abstraction_mapping",
+    "description": "Adjust complexity or abstraction level of information based on user profile or goal."
+  }
+]

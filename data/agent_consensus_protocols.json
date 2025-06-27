@@ -1,0 +1,22 @@
+[
+  {
+    "id": "majority_vote",
+    "description": "Each agent proposes an output, and the majority choice is selected."
+  },
+  {
+    "id": "confidence_weighted_vote",
+    "description": "Agent votes are weighted by their internal confidence in their outputs."
+  },
+  {
+    "id": "hierarchical_override",
+    "description": "Higher-trust or more specialized agents can override consensus if criteria are met."
+  },
+  {
+    "id": "deliberation_rounds",
+    "description": "Agents engage in iterative refinement until convergence or timeout."
+  },
+  {
+    "id": "hybrid_escalation",
+    "description": "Combine multiple methods and escalate unresolved ties to a human or supervisory agent."
+  }
+]

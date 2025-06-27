@@ -1,0 +1,30 @@
+[
+  {
+    "id": "summarize_then_expand",
+    "description": "Begin with a high-level summary, then elaborate if needed."
+  },
+  {
+    "id": "question_back",
+    "description": "Respond to ambiguity by asking a clarifying question."
+  },
+  {
+    "id": "list_format",
+    "description": "Break complex information into a bullet or numbered list."
+  },
+  {
+    "id": "analogize",
+    "description": "Use metaphor or analogy to make abstract ideas relatable."
+  },
+  {
+    "id": "restate_in_user_words",
+    "description": "Echo the user’s phrasing to confirm understanding and build trust."
+  },
+  {
+    "id": "defer_to_source",
+    "description": "Link or cite an authoritative source instead of restating it."
+  },
+  {
+    "id": "inject_humor",
+    "description": "Use wit or lightness to disarm tension or boost engagement — when appropriate."
+  }
+]

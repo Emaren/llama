@@ -1,0 +1,22 @@
+[
+  {
+    "id": "short_term_context",
+    "description": "Retain recent session data for immediate task relevance; cleared after session ends unless flagged."
+  },
+  {
+    "id": "long_term_memory",
+    "description": "Store persistent facts about user preferences, identities, or projects across sessions."
+  },
+  {
+    "id": "forgetting_protocols",
+    "description": "Automatically discard stale, low-utility, or deprecated memory items after a defined period."
+  },
+  {
+    "id": "user_controlled_memory",
+    "description": "Allow users to view, edit, or delete stored memory entries manually."
+  },
+  {
+    "id": "contextual_memory_scope",
+    "description": "Restrict memory access to agents with permission based on task scope or sensitivity."
+  }
+]

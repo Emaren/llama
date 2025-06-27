@@ -1,0 +1,32 @@
+[
+  {
+    "trigger": "wait",
+    "type": "verbal",
+    "description": "User requests the agent to pause or hold output."
+  },
+  {
+    "trigger": "stop",
+    "type": "verbal",
+    "description": "User signals to halt the current response or flow."
+  },
+  {
+    "trigger": "that's not right",
+    "type": "verbal",
+    "description": "User expresses disagreement or identifies an error."
+  },
+  {
+    "trigger": "hang on",
+    "type": "verbal",
+    "description": "User may want to interject or clarify something mid-response."
+  },
+  {
+    "trigger": "new topic",
+    "type": "semantic",
+    "description": "Marks a clear conversational pivot or session reset."
+  },
+  {
+    "trigger": "timeout_exceeded",
+    "type": "system",
+    "description": "User has been inactive for a threshold duration."
+  }
+]

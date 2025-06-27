@@ -1,0 +1,27 @@
+[
+  {
+    "id": "session_memory",
+    "label": "Session",
+    "description": "Ephemeral memory lasting only for the duration of the current interaction."
+  },
+  {
+    "id": "short_term_memory",
+    "label": "Short-Term",
+    "description": "Persisted across sessions for hours to days, useful for task continuity."
+  },
+  {
+    "id": "long_term_memory",
+    "label": "Long-Term",
+    "description": "Stores enduring user data, preferences, and patterns over weeks or more."
+  },
+  {
+    "id": "shared_memory",
+    "label": "Shared",
+    "description": "Cross-agent or team-wide memory accessible by multiple components."
+  },
+  {
+    "id": "project_memory",
+    "label": "Project",
+    "description": "Scoped to a specific project or workspace to preserve focus and relevance."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user_reengagement",
+    "description": "Pause and ask the user for clarification, confirmation, or new input."
+  },
+  {
+    "id": "higher_level_agent_transfer",
+    "description": "Hand off control to an agent operating at a higher intelligence level or with broader scope."
+  },
+  {
+    "id": "specialist_invocation",
+    "description": "Activate or summon a domain-specific expert agent to resolve the issue."
+  },
+  {
+    "id": "fallback_response_use",
+    "description": "Switch to a safe, minimal, or generic output when confidence is low."
+  },
+  {
+    "id": "system_flagging",
+    "description": "Log the situation as an anomaly and flag it for human or system administrator review."
+  }
+]

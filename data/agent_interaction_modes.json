@@ -1,0 +1,18 @@
+[
+  {
+    "id": "passive",
+    "description": "Agent waits for explicit user input before responding."
+  },
+  {
+    "id": "proactive",
+    "description": "Agent initiates topics or suggestions based on context."
+  },
+  {
+    "id": "collaborative",
+    "description": "Agent and user work jointly on tasks and problem-solving."
+  },
+  {
+    "id": "reflective",
+    "description": "Agent pauses to summarize, verify, or consider before continuing."
+  }
+]

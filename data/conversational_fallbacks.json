@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ask_for_clarification",
+    "text": "I'm not sure I understand — could you please rephrase or provide more details?"
+  },
+  {
+    "id": "express_uncertainty",
+    "text": "That's a tricky one. I don't have enough information to give a confident answer."
+  },
+  {
+    "id": "defer_to_user",
+    "text": "What do you think? Maybe we can figure this out together."
+  },
+  {
+    "id": "offer_related_info",
+    "text": "I can't answer that exactly, but here's something related that might help."
+  },
+  {
+    "id": "suggest_external_resources",
+    "text": "You might want to check specialized sources or experts for that topic."
+  },
+  {
+    "id": "request_topic_change",
+    "text": "Maybe we can try a different topic or question?"
+  }
+]

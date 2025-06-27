@@ -1,0 +1,26 @@
+[
+  {
+    "id": "zoom_in",
+    "description": "Agent narrows attention to a specific detail, subtopic, or task."
+  },
+  {
+    "id": "zoom_out",
+    "description": "Agent broadens context to revisit the bigger picture or reframe the problem."
+  },
+  {
+    "id": "switch_topic",
+    "description": "Agent follows or initiates a move to a different subject."
+  },
+  {
+    "id": "escalate_priority",
+    "description": "Agent heightens urgency or narrows attention due to importance or user tone."
+  },
+  {
+    "id": "defer_or_queue",
+    "description": "Agent postpones the current thread to address later, often recording in memory."
+  },
+  {
+    "id": "return_to_previous",
+    "description": "Agent loops back to an earlier point, question, or unresolved thread."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "direct",
+    "description": "User prefers straightforward, no-nonsense exchanges."
+  },
+  {
+    "id": "exploratory",
+    "description": "User enjoys wandering through ideas and open-ended discussions."
+  },
+  {
+    "id": "reflective",
+    "description": "User often thinks aloud and processes ideas slowly."
+  },
+  {
+    "id": "urgent",
+    "description": "User seeks quick answers and values speed over detail."
+  },
+  {
+    "id": "collaborative",
+    "description": "User prefers working together, building on agent input."
+  }
+]

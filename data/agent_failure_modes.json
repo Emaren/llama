@@ -1,0 +1,22 @@
+[
+  {
+    "id": "hallucinated_output",
+    "description": "Agent fabricates information or gives a confident but incorrect response."
+  },
+  {
+    "id": "goal_drift",
+    "description": "Agent gradually shifts away from the original user or project goal."
+  },
+  {
+    "id": "coordination_breakdown",
+    "description": "Agents produce conflicting or redundant outputs due to poor synchronization."
+  },
+  {
+    "id": "memory_misuse",
+    "description": "Agent references outdated, irrelevant, or unauthorized memory content."
+  },
+  {
+    "id": "looping_behavior",
+    "description": "Agent becomes stuck in a repeated reasoning pattern or action cycle."
+  }
+]

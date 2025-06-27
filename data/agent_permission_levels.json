@@ -1,0 +1,22 @@
+[
+  {
+    "id": "observer",
+    "description": "Can view user inputs and outputs but cannot act or modify system state."
+  },
+  {
+    "id": "assistant",
+    "description": "Can suggest actions, edit drafts, and provide insights within predefined bounds."
+  },
+  {
+    "id": "editor",
+    "description": "Can modify memory, update files, or trigger workflows with user oversight."
+  },
+  {
+    "id": "autonomous_operator",
+    "description": "May act independently within scoped environments or sandboxed contexts."
+  },
+  {
+    "id": "root_delegate",
+    "description": "Full access to all memory, agents, and system operations—requires explicit user authorization."
+  }
+]

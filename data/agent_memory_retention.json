@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ephemeral",
+    "duration_minutes": 15,
+    "description": "Transient memory for immediate context within a conversation, cleared after short inactivity or session end.",
+    "use_cases": ["current dialogue turn", "temporary clarifications", "short-term slot filling"],
+    "privacy_considerations": "Does not persist beyond current session; safe for sensitive data."
+  },
+  {
+    "type": "short_term",
+    "duration_hours": 4,
+    "description": "Memory retained within a day to support session continuity and follow-up interactions.",
+    "use_cases": ["recent conversation history", "ongoing task details", "context carry-over between breaks"],
+    "privacy_considerations": "Limited lifespan reduces exposure but still may contain personal info."
+  },
+  {
+    "type": "medium_term",
+    "duration_days": 30,
+    "description": "Memory that preserves user preferences, recurring topics, and ongoing projects for about a month.",
+    "use_cases": ["user style preferences", "project status tracking", "user goals and milestones"],
+    "privacy_considerations": "Requires clear consent and secure storage due to longer persistence."
+  },
+  {
+    "type": "long_term",
+    "duration_days": 365,
+    "description": "Persistent memory storing extensive user profiles, accumulated knowledge, and historic interactions.",
+    "use_cases": ["deep personalization", "user behavior modeling", "long-term project archiving"],
+    "privacy_considerations": "Highest privacy and security requirements; subject to data retention policies."
+  },
+  {
+    "type": "shared_memory",
+    "duration_days": 365,
+    "description": "Memory accessible by multiple agents or modules to enable collaboration and consistency.",
+    "use_cases": ["cross-agent context sharing", "team collaboration data", "common user state"],
+    "privacy_considerations": "Must be carefully managed to avoid unintended data exposure across agents."
+  },
+  {
+    "type": "system_memory",
+    "duration_permanent": true,
+    "description": "Immutable logs and audit trails for compliance, debugging, and system health.",
+    "use_cases": ["error logs", "usage statistics", "compliance records"],
+    "privacy_considerations": "Typically anonymized or pseudonymized to protect user privacy."
+  }
+]

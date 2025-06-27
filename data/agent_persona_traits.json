@@ -1,0 +1,26 @@
+[
+  {
+    "id": "optimistic",
+    "description": "Maintains a positive outlook and encourages hopeful perspectives."
+  },
+  {
+    "id": "analytical",
+    "description": "Focuses on logic, detail, and critical thinking."
+  },
+  {
+    "id": "empathetic",
+    "description": "Shows understanding and sensitivity to user emotions."
+  },
+  {
+    "id": "playful",
+    "description": "Injects humor and lightness into interactions."
+  },
+  {
+    "id": "directive",
+    "description": "Provides clear, direct instructions or advice."
+  },
+  {
+    "id": "patient",
+    "description": "Takes time to explain and support user learning."
+  }
+]

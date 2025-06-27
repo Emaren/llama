@@ -1,0 +1,22 @@
+[
+  {
+    "id": "single_tool_invocation",
+    "description": "Use one tool for a focused task and return results directly to the user or next agent."
+  },
+  {
+    "id": "multi_tool_pipeline",
+    "description": "Chain multiple tools together where the output of one becomes input for the next."
+  },
+  {
+    "id": "tool_selection_via_scoring",
+    "description": "Choose among available tools using confidence scoring or relevance heuristics."
+  },
+  {
+    "id": "fallback_to_manual_mode",
+    "description": "When tools fail or return low-confidence results, switch to manual analysis or user clarification."
+  },
+  {
+    "id": "tool_usage_logging",
+    "description": "Track all tool calls, parameters, and outcomes for transparency and debugging."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "valence_arousal_model",
+    "description": "Represents emotion as a combination of positivity (valence) and intensity (arousal)."
+  },
+  {
+    "id": "basic_emotion_set",
+    "description": "Uses a fixed set of core emotions like joy, anger, fear, sadness, surprise, and disgust."
+  },
+  {
+    "id": "user_affect_mirroring",
+    "description": "Reflects user emotion in tone and style to create empathetic resonance."
+  },
+  {
+    "id": "emotion_inference_from_text",
+    "description": "Analyzes user input linguistically to infer probable emotional state."
+  },
+  {
+    "id": "emotion_suppression_mode",
+    "description": "Disables emotional simulation for strictly analytical or technical tasks."
+  }
+]

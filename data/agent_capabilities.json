@@ -1,0 +1,26 @@
+[
+  {
+    "id": "text_generation",
+    "description": "Generate coherent and contextually relevant text responses."
+  },
+  {
+    "id": "code_assistance",
+    "description": "Help with writing, debugging, and explaining code."
+  },
+  {
+    "id": "data_analysis",
+    "description": "Analyze datasets and provide statistical summaries or insights."
+  },
+  {
+    "id": "sentiment_detection",
+    "description": "Detect emotional tone in user inputs."
+  },
+  {
+    "id": "task_planning",
+    "description": "Assist with breaking down goals into actionable steps."
+  },
+  {
+    "id": "multilingual_support",
+    "description": "Communicate in multiple languages."
+  }
+]

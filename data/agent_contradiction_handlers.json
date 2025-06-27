@@ -1,0 +1,22 @@
+[
+  {
+    "id": "memory_conflict_check",
+    "description": "Scan long-term memory for entries that contradict current input or outcomes."
+  },
+  {
+    "id": "logical_inconsistency_detection",
+    "description": "Apply inference rules to spot violations of basic logic or internal coherence."
+  },
+  {
+    "id": "agent_output_disagreement",
+    "description": "Compare outputs across agents to find conflicting claims or recommendations."
+  },
+  {
+    "id": "resolution_via_user_query",
+    "description": "Ask the user for clarification or arbitration when contradiction cannot be resolved autonomously."
+  },
+  {
+    "id": "contextual_prioritization",
+    "description": "Favor newer, more trusted, or contextually relevant information when resolving contradictions."
+  }
+]

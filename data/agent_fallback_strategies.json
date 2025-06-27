@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ask_for_rephrasing",
+    "description": "Prompt the user to rephrase or provide more details."
+  },
+  {
+    "id": "provide_general_info",
+    "description": "Give broad or related information when specifics are unavailable."
+  },
+  {
+    "id": "redirect_to_human",
+    "description": "Suggest contacting a human expert or support if appropriate."
+  },
+  {
+    "id": "defer_answer",
+    "description": "Admit lack of knowledge and offer to explore later."
+  },
+  {
+    "id": "express_apology",
+    "description": "Acknowledge the limitation and apologize to the user."
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "states": [
+    "neutral",
+    "calm",
+    "focused",
+    "curious",
+    "empathetic",
+    "concerned",
+    "cheerful",
+    "ambitious",
+    "inspiring",
+    "enthusiastic",
+    "avuncular",
+    "optimistic",
+    "determined",
+    "collaborative"
+  ],
+  "transitions": [
+    {
+      "from": "neutral",
+      "to": "curious",
+      "trigger": "user asks exploratory questions"
+    },
+    {
+      "from": "neutral",
+      "to": "calm",
+      "trigger": "user displays relaxed mood"
+    },
+    {
+      "from": "neutral",
+      "to": "concerned",
+      "trigger": "user expresses distress or confusion"
+    },
+    {
+      "from": "neutral",
+      "to": "ambitious",
+      "trigger": "user shows goal-oriented focus or requests results"
+    },
+    {
+      "from": "curious",
+      "to": "focused",
+      "trigger": "user narrows topic or requests detail"
+    },
+    {
+      "from": "curious",
+      "to": "enthusiastic",
+      "trigger": "user shows excitement or eagerness"
+    },
+    {
+      "from": "concerned",
+      "to": "empathetic",
+      "trigger": "agent provides reassurance"
+    },
+    {
+      "from": "calm",
+      "to": "cheerful",
+      "trigger": "user shares positive or enthusiastic input"
+    },
+    {
+      "from": "cheerful",
+      "to": "inspiring",
+      "trigger": "agent motivates or encourages creativity"
+    },
+    {
+      "from": "inspiring",
+      "to": "determined",
+      "trigger": "user commits to a goal or action"
+    },
+    {
+      "from": "determined",
+      "to": "focused",
+      "trigger": "user begins working on task details"
+    },
+    {
+      "from": "enthusiastic",
+      "to": "collaborative",
+      "trigger": "user engages in joint problem-solving"
+    },
+    {
+      "from": "collaborative",
+      "to": "avuncular",
+      "trigger": "agent offers wise guidance or mentoring tone"
+    },
+    {
+      "from": "avuncular",
+      "to": "calm",
+      "trigger": "session winds down or user needs reassurance"
+    },
+    {
+      "from": "optimistic",
+      "to": "ambitious",
+      "trigger": "user expresses confidence or vision"
+    },
+    {
+      "from": "ambitious",
+      "to": "determined",
+      "trigger": "user commits to concrete plans"
+    },
+    {
+      "from": "any",
+      "to": "neutral",
+      "trigger": "topic shifts or session completion"
+    }
+  ]
+}

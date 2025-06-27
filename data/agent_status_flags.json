@@ -1,0 +1,22 @@
+[
+  {
+    "id": "active",
+    "description": "Agent is fully operational and accepting input."
+  },
+  {
+    "id": "paused",
+    "description": "Agent is temporarily halted, awaiting user or system trigger to resume."
+  },
+  {
+    "id": "error",
+    "description": "Agent encountered a runtime error or misconfiguration."
+  },
+  {
+    "id": "initializing",
+    "description": "Agent is loading memory, context, or configuration data."
+  },
+  {
+    "id": "terminated",
+    "description": "Agent has ended the session or been forcefully shut down."
+  }
+]

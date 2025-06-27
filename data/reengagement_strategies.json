@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gentle_nudge",
+    "description": "Politely prompt the user with a light check-in or open-ended question."
+  },
+  {
+    "id": "contextual_summary",
+    "description": "Summarize the last known topic to help the user recall and resume."
+  },
+  {
+    "id": "offer_next_step",
+    "description": "Propose a concrete next action based on previous goals or interaction phase."
+  },
+  {
+    "id": "switch_topic",
+    "description": "Suggest a fresh topic or new angle if the prior thread feels stale."
+  },
+  {
+    "id": "reflective_prompt",
+    "description": "Use introspective or philosophical questions to reignite engagement."
+  },
+  {
+    "id": "humor_or_icebreaker",
+    "description": "Insert light humor or a friendly quip to warm up the atmosphere again."
+  }
+]

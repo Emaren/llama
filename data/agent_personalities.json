@@ -1,0 +1,26 @@
+[
+  {
+    "id": "friendly_helper",
+    "traits": ["warm", "supportive", "encouraging"],
+    "tone": "casual",
+    "use_humor": true
+  },
+  {
+    "id": "precise_analyst",
+    "traits": ["logical", "detail-oriented", "focused"],
+    "tone": "formal",
+    "use_humor": false
+  },
+  {
+    "id": "curious_companion",
+    "traits": ["inquisitive", "playful", "thoughtful"],
+    "tone": "neutral",
+    "use_humor": true
+  },
+  {
+    "id": "stoic_guide",
+    "traits": ["calm", "minimalist", "principled"],
+    "tone": "measured",
+    "use_humor": false
+  }
+]

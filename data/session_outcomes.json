@@ -1,0 +1,26 @@
+[
+  {
+    "id": "goal_achieved",
+    "description": "User successfully completed their intended task or inquiry."
+  },
+  {
+    "id": "partial_success",
+    "description": "Some progress made, but not all objectives were fully resolved."
+  },
+  {
+    "id": "unresolved",
+    "description": "Session ended before meaningful progress could be made."
+  },
+  {
+    "id": "user_disengaged",
+    "description": "User stopped interacting before conclusion or summary."
+  },
+  {
+    "id": "handoff_required",
+    "description": "Agent recognized the need to escalate or transfer to a human or another system."
+  },
+  {
+    "id": "reflected_only",
+    "description": "Session was purely introspective or exploratory, with no concrete task."
+  }
+]

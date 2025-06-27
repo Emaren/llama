@@ -1,0 +1,22 @@
+[
+  {
+    "id": "early_alignment",
+    "description": "Confirm understanding of user’s intent within the first few exchanges."
+  },
+  {
+    "id": "midway_review",
+    "description": "Pause halfway through the session to evaluate progress toward goals."
+  },
+  {
+    "id": "pre_completion",
+    "description": "Check if the user feels close to completing their task or decision."
+  },
+  {
+    "id": "summary_ready",
+    "description": "Determine if it’s an appropriate moment to summarize and wrap up."
+  },
+  {
+    "id": "emotion_shift_detected",
+    "description": "Trigger a check-in when a significant emotional change is inferred."
+  }
+]

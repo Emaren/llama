@@ -1,0 +1,27 @@
+[
+  {
+    "id": "web_app",
+    "label": "Web App",
+    "description": "Primary browser-based interface for user interaction."
+  },
+  {
+    "id": "mobile_app",
+    "label": "Mobile App",
+    "description": "Native or PWA interface for phones and tablets."
+  },
+  {
+    "id": "terminal",
+    "label": "Terminal",
+    "description": "Command-line interface for power users and developers."
+  },
+  {
+    "id": "voice",
+    "label": "Voice",
+    "description": "Spoken interaction via microphones or smart devices."
+  },
+  {
+    "id": "api",
+    "label": "API",
+    "description": "Programmatic interaction through backend endpoints."
+  }
+]

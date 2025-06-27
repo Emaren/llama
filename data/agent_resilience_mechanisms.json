@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fallback_response_generation",
+    "description": "Use predefined or low-risk templates when confidence is low or external resources fail."
+  },
+  {
+    "id": "context_reconstruction",
+    "description": "Rebuild session context from memory or logs after unexpected interruption or crash."
+  },
+  {
+    "id": "redundant_agent_backup",
+    "description": "Activate a secondary agent to mirror or validate actions in critical flows."
+  },
+  {
+    "id": "adaptive_uncertainty_handling",
+    "description": "Adjust verbosity or ask clarifying questions when ambiguity is detected in user input."
+  },
+  {
+    "id": "incremental_output_strategy",
+    "description": "Defer final output until enough confidence is gathered, releasing intermediate steps progressively."
+  }
+]

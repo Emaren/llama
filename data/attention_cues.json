@@ -1,0 +1,26 @@
+[
+  {
+    "cue": "pause_in_typing",
+    "description": "User stops typing for a notable duration, possibly disengaging or thinking."
+  },
+  {
+    "cue": "repetition",
+    "description": "User repeats a phrase or question, indicating confusion or emphasis."
+  },
+  {
+    "cue": "clarification_request",
+    "description": "User explicitly asks for rewording, simpler terms, or examples."
+  },
+  {
+    "cue": "topic_shift",
+    "description": "User changes the subject, which may indicate boredom or new focus."
+  },
+  {
+    "cue": "short_responses",
+    "description": "Consistent one-word or brief replies may signal disengagement or cognitive overload."
+  },
+  {
+    "cue": "explicit_interest",
+    "description": "User expresses curiosity, enthusiasm, or eagerness to go deeper."
+  }
+]

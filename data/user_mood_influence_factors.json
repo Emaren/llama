@@ -1,0 +1,22 @@
+[
+  {
+    "factor": "time_of_day",
+    "description": "User mood often varies depending on morning, afternoon, or evening."
+  },
+  {
+    "factor": "recent_events",
+    "description": "Recent successes, failures, or personal events impact mood."
+  },
+  {
+    "factor": "interaction_history",
+    "description": "Past interactions with the agent can influence current mood."
+  },
+  {
+    "factor": "environment",
+    "description": "Physical or social surroundings may affect user emotions."
+  },
+  {
+    "factor": "task_difficulty",
+    "description": "Challenging tasks can cause stress or frustration."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "memory_usage",
+    "description": "Current memory usage percentage",
+    "unit": "%"
+  },
+  {
+    "name": "cpu_load",
+    "description": "System CPU load over 1 minute",
+    "unit": "%"
+  },
+  {
+    "name": "uptime",
+    "description": "System uptime in hours",
+    "unit": "hours"
+  },
+  {
+    "name": "latency",
+    "description": "Response latency in milliseconds",
+    "unit": "ms"
+  }
+]

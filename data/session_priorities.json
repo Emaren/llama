@@ -1,0 +1,18 @@
+[
+  {
+    "level": "high",
+    "description": "Requires immediate attention or response."
+  },
+  {
+    "level": "medium",
+    "description": "Important but can be addressed in normal flow."
+  },
+  {
+    "level": "low",
+    "description": "Non-urgent; can be deferred or deprioritized."
+  },
+  {
+    "level": "informational",
+    "description": "Data or requests for context, with no immediate action required."
+  }
+]

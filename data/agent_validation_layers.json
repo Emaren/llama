@@ -1,0 +1,22 @@
+[
+  {
+    "id": "syntax_check",
+    "description": "Ensure output conforms to correct grammar, structure, or code syntax."
+  },
+  {
+    "id": "factual_consistency_check",
+    "description": "Verify factual claims against trusted memory or data sources."
+  },
+  {
+    "id": "safety_filter",
+    "description": "Scan output for potentially harmful, biased, or inappropriate content."
+  },
+  {
+    "id": "goal_alignment_check",
+    "description": "Validate that output serves the user’s stated or inferred goal."
+  },
+  {
+    "id": "peer_review_layer",
+    "description": "Allow other agents to critique and refine the response before release."
+  }
+]

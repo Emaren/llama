@@ -1,0 +1,22 @@
+[
+  {
+    "pattern": "rapid_response",
+    "description": "User replies quickly and consistently, indicating high engagement."
+  },
+  {
+    "pattern": "delayed_response",
+    "description": "User takes longer to reply, possibly multitasking or distracted."
+  },
+  {
+    "pattern": "repetitive_questions",
+    "description": "User asks similar questions multiple times, possibly signaling confusion."
+  },
+  {
+    "pattern": "topic_hopping",
+    "description": "User rapidly switches topics, indicating scattered focus."
+  },
+  {
+    "pattern": "silence",
+    "description": "User stops responding, which may require agent reengagement."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "level": "very_low",
+    "description": "Highly uncertain; answer should be verified."
+  },
+  {
+    "level": "low",
+    "description": "Some doubt; not fully confident."
+  },
+  {
+    "level": "medium",
+    "description": "Moderate confidence; likely correct."
+  },
+  {
+    "level": "high",
+    "description": "Strong confidence; well-supported."
+  },
+  {
+    "level": "very_high",
+    "description": "Very strong confidence; multiple confirmations."
+  }
+]

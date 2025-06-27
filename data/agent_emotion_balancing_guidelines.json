@@ -1,0 +1,26 @@
+[
+  {
+    "principle": "Start Simple",
+    "description": "Begin with a small, core set of distinct moods to ensure clarity and stability."
+  },
+  {
+    "principle": "Define Clear Boundaries",
+    "description": "Avoid overlapping emotional states to reduce ambiguity in response generation."
+  },
+  {
+    "principle": "Prioritize User Experience",
+    "description": "Balance emotional expressiveness with clear, useful responses to prevent user fatigue."
+  },
+  {
+    "principle": "Implement Robust Transitions",
+    "description": "Use explicit triggers and cooldowns to avoid rapid mood swings."
+  },
+  {
+    "principle": "Monitor and Adapt",
+    "description": "Continuously collect user feedback and usage data to refine emotional modeling."
+  },
+  {
+    "principle": "Avoid Anthropomorphism Pitfalls",
+    "description": "Manage user expectations by being transparent about agent limitations."
+  }
+]

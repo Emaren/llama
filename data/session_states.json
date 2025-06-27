@@ -1,0 +1,26 @@
+[
+  {
+    "id": "starting",
+    "description": "Session is initiating, loading context and memory."
+  },
+  {
+    "id": "active",
+    "description": "User and agent are actively exchanging messages."
+  },
+  {
+    "id": "waiting",
+    "description": "Agent is awaiting user input or action."
+  },
+  {
+    "id": "paused",
+    "description": "Session is temporarily paused or idle."
+  },
+  {
+    "id": "ending",
+    "description": "Session is wrapping up or concluding."
+  },
+  {
+    "id": "ended",
+    "description": "Session has been closed or terminated."
+  }
+]

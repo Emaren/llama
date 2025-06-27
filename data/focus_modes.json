@@ -1,0 +1,27 @@
+[
+  {
+    "id": "deep_work",
+    "label": "Deep Work",
+    "description": "Suppresses distractions and maintains intense focus on a single task."
+  },
+  {
+    "id": "exploration",
+    "label": "Exploration",
+    "description": "Encourages curiosity, idea generation, and open-ended dialogue."
+  },
+  {
+    "id": "support",
+    "label": "Support",
+    "description": "Prioritizes empathy and helpfulness for user challenges or emotional states."
+  },
+  {
+    "id": "sprint",
+    "label": "Sprint",
+    "description": "Moves rapidly toward a defined goal with urgency and minimal deviation."
+  },
+  {
+    "id": "review",
+    "label": "Review",
+    "description": "Surfaces past interactions, summaries, or evaluations for reflection or revision."
+  }
+]

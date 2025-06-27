@@ -1,0 +1,22 @@
+[
+  {
+    "id": "data_dependency",
+    "description": "Agent requires specific inputs or memory entries to complete a task."
+  },
+  {
+    "id": "tool_dependency",
+    "description": "Agent relies on external software or APIs to perform certain operations."
+  },
+  {
+    "id": "inter_agent_dependency",
+    "description": "Agent waits on another agent’s output or decision before proceeding."
+  },
+  {
+    "id": "timing_dependency",
+    "description": "Task must occur in a specific order or at a scheduled time."
+  },
+  {
+    "id": "permission_dependency",
+    "description": "Agent cannot execute an action without elevated permission or confirmation."
+  }
+]

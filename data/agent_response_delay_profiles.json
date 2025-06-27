@@ -1,0 +1,18 @@
+[
+  {
+    "id": "instant",
+    "description": "Responds immediately for quick interactions."
+  },
+  {
+    "id": "natural_typing",
+    "description": "Simulates human-like typing delay to improve conversational feel."
+  },
+  {
+    "id": "thoughtful",
+    "description": "Deliberate pauses to signal processing or contemplation."
+  },
+  {
+    "id": "slow",
+    "description": "Extended delay for calm or reflective pacing."
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": "initiation", "description": "Session begins, context is established, user intent inferred." },
+  { "id": "exploration", "description": "User and agent exchange information, options, or questions." },
+  { "id": "focus", "description": "Session narrows toward a goal, plan, or specific outcome." },
+  { "id": "wrap_up", "description": "Agent summarizes, confirms success, or transitions out." },
+  { "id": "idle", "description": "Session is inactive or waiting for user input." }
+]

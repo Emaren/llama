@@ -1,0 +1,22 @@
+[
+  {
+    "id": "text_terminal",
+    "description": "Plaintext input/output in command-line or console environments."
+  },
+  {
+    "id": "gui_chat",
+    "description": "Conversational interface within a graphical web or desktop application."
+  },
+  {
+    "id": "api_responder",
+    "description": "Agent listens to and replies via REST or RPC API calls."
+  },
+  {
+    "id": "embedded_ui_component",
+    "description": "Agent renders outputs inside frontend widgets like tooltips, cards, or modals."
+  },
+  {
+    "id": "voice_interface",
+    "description": "Speech-based interaction, potentially using text-to-speech and voice recognition modules."
+  }
+]

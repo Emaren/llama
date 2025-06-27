@@ -1,0 +1,8 @@
+{
+  "language": "en",
+  "response_style": "concise",
+  "preferred_tone": "neutral",
+  "show_technical_details": false,
+  "enable_humor": true,
+  "max_response_length": 500
+}

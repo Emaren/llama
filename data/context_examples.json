@@ -1,0 +1,18 @@
+[
+  {
+    "input": "How do I reset my password?",
+    "context": "support"
+  },
+  {
+    "input": "Tell me a joke",
+    "context": "entertainment"
+  },
+  {
+    "input": "Summarize the quarterly earnings report",
+    "context": "analysis"
+  },
+  {
+    "input": "What’s the weather like in Tokyo?",
+    "context": "factual"
+  }
+]

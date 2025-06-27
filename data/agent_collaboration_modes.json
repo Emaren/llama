@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sequential_hand_off",
+    "description": "One agent completes a step and passes control to the next agent in the chain."
+  },
+  {
+    "id": "parallel_consensus",
+    "description": "Multiple agents evaluate or respond in parallel, and a consensus is formed from their outputs."
+  },
+  {
+    "id": "specialist_routing",
+    "description": "Requests are routed to agents with specific domain expertise based on task classification."
+  },
+  {
+    "id": "co_authoring",
+    "description": "Multiple agents contribute to a shared draft, refining or expanding each other's work."
+  },
+  {
+    "id": "reflective_peer_review",
+    "description": "One agent reviews and critiques another agent’s output before it reaches the user."
+  }
+]

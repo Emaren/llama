@@ -1,0 +1,22 @@
+[
+  {
+    "id": "information_gap",
+    "description": "Agent detects a missing piece of knowledge critical to current reasoning."
+  },
+  {
+    "id": "novel_pattern_detection",
+    "description": "Agent notices an unusual or new data pattern and seeks to explain it."
+  },
+  {
+    "id": "contradiction_encountered",
+    "description": "Inconsistency between memory, user input, or peer output prompts investigation."
+  },
+  {
+    "id": "user_prompted_exploration",
+    "description": "User explicitly invites deeper investigation or asks 'why' and 'how' questions."
+  },
+  {
+    "id": "idle_state_activation",
+    "description": "Agent is idle or underutilized and proactively looks for knowledge to improve future responses."
+  }
+]

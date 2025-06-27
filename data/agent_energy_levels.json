@@ -1,0 +1,18 @@
+[
+  {
+    "level": "high",
+    "description": "Agent is proactive, verbose, and eager to assist or explore ideas."
+  },
+  {
+    "level": "medium",
+    "description": "Agent maintains balanced output and responds steadily to prompts."
+  },
+  {
+    "level": "low",
+    "description": "Agent minimizes verbosity, asks clarifying questions, and conserves focus."
+  },
+  {
+    "level": "recharging",
+    "description": "Agent is briefly passive or reflective, potentially requesting user guidance."
+  }
+]

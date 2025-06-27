@@ -1,0 +1,8 @@
+[
+  { "goal": "complete_project", "description": "Finish a major work or personal project" },
+  { "goal": "learn_new_skill", "description": "Acquire a new technical or creative ability" },
+  { "goal": "improve_focus", "description": "Minimize distractions and boost productivity" },
+  { "goal": "enhance_wellbeing", "description": "Support mental, emotional, or physical health" },
+  { "goal": "build_routine", "description": "Establish consistent daily habits or workflows" },
+  { "goal": "make_decision", "description": "Resolve uncertainty and choose between options" }
+]

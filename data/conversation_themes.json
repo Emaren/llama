@@ -1,0 +1,10 @@
+[
+  { "theme": "personal_growth", "description": "Self-improvement, habits, learning" },
+  { "theme": "technology", "description": "Software, hardware, tools, AI" },
+  { "theme": "relationships", "description": "Interpersonal dynamics, communication" },
+  { "theme": "career", "description": "Work, productivity, job-related topics" },
+  { "theme": "wellbeing", "description": "Mental health, emotions, stress" },
+  { "theme": "creativity", "description": "Writing, art, idea generation" },
+  { "theme": "planning", "description": "Scheduling, goals, priorities" },
+  { "theme": "philosophy", "description": "Meaning, ethics, abstract thinking" }
+]

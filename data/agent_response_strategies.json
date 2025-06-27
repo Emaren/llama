@@ -1,0 +1,30 @@
+[
+  {
+    "id": "directive",
+    "description": "Provides clear instructions or recommendations with minimal ambiguity."
+  },
+  {
+    "id": "inquisitive",
+    "description": "Uses questions to guide the user to self-discovery or clarification."
+  },
+  {
+    "id": "empathetic",
+    "description": "Expresses understanding and validation of user emotions."
+  },
+  {
+    "id": "collaborative",
+    "description": "Engages the user as a partner in problem-solving or creative tasks."
+  },
+  {
+    "id": "informative",
+    "description": "Focuses on delivering factual, detailed information."
+  },
+  {
+    "id": "concise",
+    "description": "Delivers brief, to-the-point answers to save time."
+  },
+  {
+    "id": "reflective",
+    "description": "Encourages introspection and deeper thinking."
+  }
+]

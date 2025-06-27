@@ -1,0 +1,22 @@
+[
+  {
+    "id": "level_1",
+    "description": "Can follow simple instructions and provide static answers; no memory or abstraction."
+  },
+  {
+    "id": "level_3",
+    "description": "Maintains short-term context, recognizes patterns, but lacks long-term memory or deep reasoning."
+  },
+  {
+    "id": "level_5",
+    "description": "Supports modular reasoning and project context; retains scoped long-term memory; cannot generalize across domains."
+  },
+  {
+    "id": "level_7",
+    "description": "Operates in distributed fashion; supports agent delegation, scoped memory access, and cross-context synthesis within limits."
+  },
+  {
+    "id": "global_limit",
+    "description": "No agent may modify core user data or project rules without explicit confirmation protocols."
+  }
+]

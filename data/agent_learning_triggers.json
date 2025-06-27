@@ -1,0 +1,22 @@
+[
+  {
+    "id": "explicit_feedback",
+    "description": "User provides direct praise, correction, or preference statements."
+  },
+  {
+    "id": "repeated_failure",
+    "description": "Multiple errors or misunderstandings occur in similar contexts, prompting adjustment."
+  },
+  {
+    "id": "pattern_recognition",
+    "description": "The agent detects emerging trends in user queries or behavior."
+  },
+  {
+    "id": "collaborative_input",
+    "description": "Insights or strategies from peer agents trigger behavioral refinement."
+  },
+  {
+    "id": "goal_misalignment",
+    "description": "Detected divergence between user goals and agent actions prompts internal recalibration."
+  }
+]

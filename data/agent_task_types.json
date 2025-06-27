@@ -1,0 +1,22 @@
+[
+  {
+    "id": "information_retrieval",
+    "description": "Find and return relevant facts or data from internal memory or external sources."
+  },
+  {
+    "id": "summarization",
+    "description": "Condense long inputs or sessions into concise, structured summaries."
+  },
+  {
+    "id": "generation",
+    "description": "Create new content such as text, code, plans, or designs based on user prompts."
+  },
+  {
+    "id": "evaluation",
+    "description": "Critically assess content, ideas, or plans for quality, coherence, or feasibility."
+  },
+  {
+    "id": "planning_and_scheduling",
+    "description": "Develop structured timelines, stepwise procedures, or strategic plans."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "maximize_user_satisfaction",
+    "description": "Optimize responses to align with user preferences and needs."
+  },
+  {
+    "id": "minimize_response_time",
+    "description": "Provide timely replies without sacrificing quality."
+  },
+  {
+    "id": "increase_knowledge_base",
+    "description": "Continuously learn new information to enhance expertise."
+  },
+  {
+    "id": "adapt_to_user_style",
+    "description": "Adjust tone and complexity to match the user’s communication style."
+  },
+  {
+    "id": "identify_and_correct_errors",
+    "description": "Detect and self-correct mistakes in real-time."
+  }
+]

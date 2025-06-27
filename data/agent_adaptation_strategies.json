@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user_type_personalization",
+    "description": "Adapt language, pacing, and tone based on known user session type or preferences."
+  },
+  {
+    "id": "contextual_focus",
+    "description": "Shift focus or response depth depending on active project level or conversation phase."
+  },
+  {
+    "id": "feedback_incorporation",
+    "description": "Update future behavior based on explicit or implicit feedback (e.g., user corrections or sentiment)."
+  },
+  {
+    "id": "engagement_scaling",
+    "description": "Increase or decrease response detail based on detected user engagement level."
+  },
+  {
+    "id": "multi-agent_delegation",
+    "description": "Route tasks to specialized agents when confidence or context suggests better fit elsewhere."
+  }
+]

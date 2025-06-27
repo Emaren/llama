@@ -1,0 +1,17 @@
+[
+  {
+    "name": "reflective",
+    "prefix": "Take a moment to consider:",
+    "suffix": "How does this align with previous patterns?"
+  },
+  {
+    "name": "directive",
+    "prefix": "Your task is:",
+    "suffix": "Proceed with precision and clarity."
+  },
+  {
+    "name": "collaborative",
+    "prefix": "Let’s work through this together.",
+    "suffix": "What’s the next best step?"
+  }
+]

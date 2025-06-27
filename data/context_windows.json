@@ -1,0 +1,17 @@
+[
+  {
+    "name": "short_term",
+    "token_limit": 1024,
+    "strategy": "recent_messages_only"
+  },
+  {
+    "name": "medium_term",
+    "token_limit": 4096,
+    "strategy": "hybrid_recent_and_relevant"
+  },
+  {
+    "name": "long_term",
+    "token_limit": 8192,
+    "strategy": "summarized_history_with_tags"
+  }
+]

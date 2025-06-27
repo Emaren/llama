@@ -1,0 +1,7 @@
+{
+  "response_time_weight": 0.3,
+  "user_sentiment_weight": 0.25,
+  "session_length_weight": 0.2,
+  "interaction_depth_weight": 0.15,
+  "novelty_weight": 0.1
+}

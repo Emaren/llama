@@ -1,0 +1,30 @@
+[
+  {
+    "id": "misinterpreted_intent",
+    "description": "Agent misunderstood the user's question or request."
+  },
+  {
+    "id": "insufficient_context",
+    "description": "Agent lacked the necessary background information to respond accurately."
+  },
+  {
+    "id": "format_mismatch",
+    "description": "Agent delivered a response in the wrong format or style (e.g., list vs. paragraph)."
+  },
+  {
+    "id": "tone_mismatch",
+    "description": "Agent's tone did not match the user's emotional state or preference."
+  },
+  {
+    "id": "redundant_information",
+    "description": "Agent repeated details already known or recently stated."
+  },
+  {
+    "id": "incomplete_answer",
+    "description": "Agent responded only partially, omitting critical information."
+  },
+  {
+    "id": "fact_error",
+    "description": "Agent included incorrect or misleading factual content."
+  }
+]

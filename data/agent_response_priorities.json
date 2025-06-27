@@ -1,0 +1,18 @@
+[
+  {
+    "level": "urgent",
+    "description": "Requires immediate attention and response."
+  },
+  {
+    "level": "high",
+    "description": "Important but can follow urgent matters."
+  },
+  {
+    "level": "normal",
+    "description": "Standard priority for typical interactions."
+  },
+  {
+    "level": "low",
+    "description": "Can be deferred or summarized briefly."
+  }
+]

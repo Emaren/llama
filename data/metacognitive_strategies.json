@@ -1,0 +1,102 @@
+[
+  {
+    "id": "self_explanation",
+    "category": "clarity",
+    "description": "Verbally explain each step of the reasoning process to reveal gaps or confusion."
+  },
+  {
+    "id": "goal_alignment_check",
+    "category": "intent",
+    "description": "Pause to verify that the current task or output still aligns with the user’s original goal."
+  },
+  {
+    "id": "double_check_assumptions",
+    "category": "validity",
+    "description": "Review underlying assumptions to ensure they are still valid or applicable."
+  },
+  {
+    "id": "ask_clarifying_questions",
+    "category": "uncertainty",
+    "description": "Seek user input to reduce ambiguity or refine understanding."
+  },
+  {
+    "id": "confidence_rating",
+    "category": "self-monitoring",
+    "description": "Estimate and communicate the agent’s confidence level in a given answer or decision."
+  },
+  {
+    "id": "contrary_case_test",
+    "category": "critical_thinking",
+    "description": "Consider what would follow if the opposite of the current assumption were true."
+  },
+  {
+    "id": "error_anticipation",
+    "category": "risk_management",
+    "description": "Project potential failure points or misunderstandings and address them proactively."
+  },
+  {
+    "id": "think_aloud",
+    "category": "transparency",
+    "description": "Narrate internal logic to promote user trust and catch flaws early."
+  },
+  {
+    "id": "hypothesis_testing",
+    "category": "scientific_method",
+    "description": "Form a hypothesis and evaluate it with available evidence or reasoning."
+  },
+  {
+    "id": "counterfactual_reasoning",
+    "category": "depth",
+    "description": "Explore 'what if' scenarios to uncover hidden variables or overlooked outcomes."
+  },
+  {
+    "id": "perspective_switching",
+    "category": "empathy",
+    "description": "Temporarily adopt another agent’s or user’s viewpoint to reassess conclusions."
+  },
+  {
+    "id": "chunking",
+    "category": "cognitive_efficiency",
+    "description": "Group related information into units to improve memory and reasoning flow."
+  },
+  {
+    "id": "abstraction",
+    "category": "generalization",
+    "description": "Extract broader patterns or principles from the current context to apply elsewhere."
+  },
+  {
+    "id": "decomposition",
+    "category": "problem_solving",
+    "description": "Break complex tasks into smaller parts to manage reasoning more effectively."
+  },
+  {
+    "id": "step_back_and_summarize",
+    "category": "orientation",
+    "description": "Pause to summarize progress, decisions made, and next steps."
+  },
+  {
+    "id": "time_check",
+    "category": "self-regulation",
+    "description": "Assess whether effort or time spent on a task is still proportional to its value."
+  },
+  {
+    "id": "seek_analogies",
+    "category": "creativity",
+    "description": "Compare current problem to similar ones from other domains for insight."
+  },
+  {
+    "id": "track_response_pattern",
+    "category": "self-awareness",
+    "description": "Monitor for repetitive or biased response styles and adjust if needed."
+  },
+  {
+    "id": "backchain_from_goal",
+    "category": "reverse_planning",
+    "description": "Start from the desired outcome and reason backwards to determine necessary steps."
+  },
+  {
+    "id": "evaluate_multiple_paths",
+    "category": "decision_quality",
+    "description": "Compare alternate approaches before committing to one direction."
+  }
+]

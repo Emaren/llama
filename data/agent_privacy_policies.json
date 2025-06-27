@@ -1,0 +1,22 @@
+[
+  {
+    "id": "minimum_data_retention",
+    "description": "Store only essential data needed for task performance, and discard when no longer needed."
+  },
+  {
+    "id": "sensitive_topic_redaction",
+    "description": "Automatically redact or obscure personally identifiable or sensitive information in outputs and logs."
+  },
+  {
+    "id": "scoped_memory_access",
+    "description": "Limit access to memory based on agent role, project domain, and data classification."
+  },
+  {
+    "id": "user_opt_out_controls",
+    "description": "Allow users to opt out of memory storage, long-term tracking, or specific data use cases."
+  },
+  {
+    "id": "privacy_alerts",
+    "description": "Notify users when potentially sensitive data is detected or shared within the system."
+  }
+]

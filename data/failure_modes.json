@@ -1,0 +1,30 @@
+[
+  {
+    "id": "hallucination",
+    "description": "Agent provides a confident but factually incorrect answer."
+  },
+  {
+    "id": "overconfidence",
+    "description": "Agent fails to express uncertainty when appropriate."
+  },
+  {
+    "id": "underresponse",
+    "description": "Agent gives overly short or vague replies lacking useful detail."
+  },
+  {
+    "id": "looping",
+    "description": "Agent repeats the same ideas, questions, or prompts unnecessarily."
+  },
+  {
+    "id": "derailment",
+    "description": "Agent drifts off-topic and loses alignment with the user's intent."
+  },
+  {
+    "id": "conflict_avoidance",
+    "description": "Agent avoids acknowledging disagreement or challenging faulty reasoning."
+  },
+  {
+    "id": "excessive_verbosity",
+    "description": "Agent overwhelms the user with too much information or overly long responses."
+  }
+]

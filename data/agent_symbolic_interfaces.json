@@ -1,0 +1,22 @@
+[
+  {
+    "id": "semantic_graphs",
+    "description": "Nodes and edges representing entities and their relationships for structured reasoning."
+  },
+  {
+    "id": "logic_chains",
+    "description": "Step-by-step symbolic logic structures used to justify conclusions or derive inferences."
+  },
+  {
+    "id": "rule_tables",
+    "description": "Explicit condition-action mappings that agents can use or update for consistent behavior."
+  },
+  {
+    "id": "task_blueprints",
+    "description": "Abstract representations of procedures or workflows used for planning and execution."
+  },
+  {
+    "id": "intent_matrices",
+    "description": "Structured mappings between user goals, intents, and suitable agent actions."
+  }
+]

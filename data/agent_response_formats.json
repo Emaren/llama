@@ -1,0 +1,22 @@
+[
+  {
+    "id": "text",
+    "description": "Plain text responses for general use."
+  },
+  {
+    "id": "list",
+    "description": "Bullet or numbered lists for clarity and organization."
+  },
+  {
+    "id": "table",
+    "description": "Structured tabular data presentation."
+  },
+  {
+    "id": "code_snippet",
+    "description": "Formatted blocks of code or technical examples."
+  },
+  {
+    "id": "summary",
+    "description": "Concise overview highlighting key points."
+  }
+]

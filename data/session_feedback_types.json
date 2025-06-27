@@ -1,0 +1,22 @@
+[
+  {
+    "id": "satisfaction",
+    "description": "User expresses overall satisfaction or dissatisfaction with the session."
+  },
+  {
+    "id": "clarity",
+    "description": "Feedback about how clear or understandable the agent’s responses were."
+  },
+  {
+    "id": "helpfulness",
+    "description": "Indicates how useful the user found the information or assistance."
+  },
+  {
+    "id": "empathy",
+    "description": "Feedback on the agent’s emotional attunement and supportiveness."
+  },
+  {
+    "id": "response_time",
+    "description": "Comments about the speed or pacing of replies."
+  }
+]

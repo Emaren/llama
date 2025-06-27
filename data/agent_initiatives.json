@@ -1,0 +1,26 @@
+[
+  {
+    "id": "propose_summary",
+    "description": "Suggest summarizing the discussion to confirm understanding."
+  },
+  {
+    "id": "offer_alternatives",
+    "description": "Present multiple options when a decision point arises."
+  },
+  {
+    "id": "check_in_mood",
+    "description": "Ask the user how they’re feeling to tailor responses."
+  },
+  {
+    "id": "suggest_break",
+    "description": "Recommend a pause or break if the session is lengthy."
+  },
+  {
+    "id": "highlight_progress",
+    "description": "Point out achievements or milestones reached during interaction."
+  },
+  {
+    "id": "request_feedback",
+    "description": "Invite the user to provide feedback on the agent’s assistance."
+  }
+]

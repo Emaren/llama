@@ -1,0 +1,22 @@
+[
+  {
+    "id": "quick_question",
+    "description": "User seeks a brief, direct answer."
+  },
+  {
+    "id": "deep_dive",
+    "description": "User engages in a detailed exploration of a topic."
+  },
+  {
+    "id": "problem_solving",
+    "description": "User works through a challenge or issue."
+  },
+  {
+    "id": "creative_brainstorm",
+    "description": "User collaborates on generating ideas or content."
+  },
+  {
+    "id": "emotional_support",
+    "description": "User seeks empathy and encouragement."
+  }
+]

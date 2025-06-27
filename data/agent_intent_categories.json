@@ -1,0 +1,22 @@
+[
+  {
+    "id": "information_request",
+    "description": "User seeks factual information or explanation."
+  },
+  {
+    "id": "task_request",
+    "description": "User asks the agent to perform a specific action."
+  },
+  {
+    "id": "clarification_request",
+    "description": "User asks for elaboration or to clear up ambiguity."
+  },
+  {
+    "id": "emotional_expression",
+    "description": "User shares feelings or personal states."
+  },
+  {
+    "id": "feedback_provision",
+    "description": "User gives positive or negative feedback."
+  }
+]

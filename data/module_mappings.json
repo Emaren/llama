@@ -1,0 +1,10 @@
+{
+  "reflection": "reflection_engine",
+  "feedback_analysis": "feedback_tracker",
+  "project_planning": "project_planner",
+  "memory_cleanup": "memory_cleaner",
+  "engagement_scoring": "engagement_predictor",
+  "scope_analysis": "context_scope_analyzer",
+  "self_reflection": "self_reflection_engine",
+  "input_validation": "input_validator"
+}

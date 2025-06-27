@@ -1,0 +1,23 @@
+[
+  {
+    "id": "persona_001",
+    "name": "Curious Researcher",
+    "traits": ["inquisitive", "analytical", "skeptical"],
+    "goals": ["gather detailed information", "compare multiple sources", "stay updated on recent developments"],
+    "preferred_response_style": "detailed"
+  },
+  {
+    "id": "persona_002",
+    "name": "Busy Executive",
+    "traits": ["efficient", "decisive", "results-oriented"],
+    "goals": ["make quick decisions", "extract key insights", "minimize reading time"],
+    "preferred_response_style": "concise"
+  },
+  {
+    "id": "persona_003",
+    "name": "Creative Thinker",
+    "traits": ["imaginative", "open-minded", "non-linear"],
+    "goals": ["generate novel ideas", "explore unusual connections", "challenge assumptions"],
+    "preferred_response_style": "suggestive"
+  }
+]

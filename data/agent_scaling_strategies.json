@@ -1,0 +1,22 @@
+[
+  {
+    "id": "horizontal_agent_cloning",
+    "description": "Replicate agent instances to handle multiple users or sessions in parallel."
+  },
+  {
+    "id": "vertical_specialization",
+    "description": "Assign deeper expertise or expanded memory to selected agents for high-complexity tasks."
+  },
+  {
+    "id": "resource_pooling",
+    "description": "Share processing, memory, or data access across agent clusters for efficiency."
+  },
+  {
+    "id": "load_balancing",
+    "description": "Distribute incoming requests intelligently to prevent overload or latency."
+  },
+  {
+    "id": "task_partitioning",
+    "description": "Break down complex tasks into subtasks handled by different agents and recombined at the end."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "task_awareness",
+    "description": "Understanding the goal, scope, and constraints of the current task."
+  },
+  {
+    "id": "user_state_awareness",
+    "description": "Sensitivity to the user’s emotional tone, engagement, and cognitive load."
+  },
+  {
+    "id": "environmental_awareness",
+    "description": "Monitoring the system state, performance metrics, and external dependencies."
+  },
+  {
+    "id": "self_awareness",
+    "description": "Recognizing the agent’s own capabilities, confidence, and limitations."
+  },
+  {
+    "id": "multi-agent_awareness",
+    "description": "Tracking the roles, status, and contributions of other agents in the system."
+  }
+]

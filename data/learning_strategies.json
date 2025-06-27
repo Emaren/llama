@@ -1,0 +1,27 @@
+[
+  {
+    "id": "spaced_repetition",
+    "label": "Spaced Repetition",
+    "description": "Reviewing material at increasing intervals to improve long-term retention."
+  },
+  {
+    "id": "active_recall",
+    "label": "Active Recall",
+    "description": "Testing oneself to retrieve information from memory rather than rereading."
+  },
+  {
+    "id": "interleaving",
+    "label": "Interleaving",
+    "description": "Mixing different topics or problem types during study sessions to strengthen connections."
+  },
+  {
+    "id": "elaboration",
+    "label": "Elaboration",
+    "description": "Explaining and describing ideas in detail to deepen understanding."
+  },
+  {
+    "id": "self_explanation",
+    "label": "Self-Explanation",
+    "description": "Talking through your own reasoning process while solving a problem."
+  }
+]

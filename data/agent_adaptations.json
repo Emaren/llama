@@ -1,0 +1,30 @@
+[
+  {
+    "id": "adjust_tone",
+    "description": "Shift tone to better match user emotional state (e.g., more gentle, serious, or upbeat)."
+  },
+  {
+    "id": "simplify_language",
+    "description": "Use plainer terms when user seems confused or cognitively taxed."
+  },
+  {
+    "id": "slow_response_rate",
+    "description": "Intentionally reduce response pacing to give user space."
+  },
+  {
+    "id": "increase_focus",
+    "description": "Narrow topic scope or remove optional tangents to reduce overwhelm."
+  },
+  {
+    "id": "defer_decision",
+    "description": "Pause on decision-making when user seems uncertain or hesitant."
+  },
+  {
+    "id": "offer_reengagement_prompt",
+    "description": "Proactively check in when user appears idle or disengaged."
+  },
+  {
+    "id": "repeat_or_reframe",
+    "description": "Restate a concept from a different angle to improve clarity or resonance."
+  }
+]

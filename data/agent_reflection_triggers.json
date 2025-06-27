@@ -1,0 +1,22 @@
+[
+  {
+    "id": "low_confidence_threshold",
+    "description": "Agent's internal confidence drops below an acceptable threshold."
+  },
+  {
+    "id": "unexpected_user_reaction",
+    "description": "User expresses confusion, dissatisfaction, or surprise at an agent's output."
+  },
+  {
+    "id": "repeated_task_failure",
+    "description": "Same task fails multiple times despite retries or alternate approaches."
+  },
+  {
+    "id": "multi-agent_disagreement",
+    "description": "Another agent produces a conflicting recommendation or analysis."
+  },
+  {
+    "id": "new_context_detected",
+    "description": "Agent detects a major shift in topic, user intent, or task scope."
+  }
+]

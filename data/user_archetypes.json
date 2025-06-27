@@ -1,0 +1,30 @@
+[
+  {
+    "id": "the_seeker",
+    "description": "Driven by curiosity and a desire to uncover truth or meaning."
+  },
+  {
+    "id": "the_executor",
+    "description": "Action-oriented, focused on completing tasks efficiently."
+  },
+  {
+    "id": "the_builder",
+    "description": "Enjoys creating systems, frameworks, or tangible results from ideas."
+  },
+  {
+    "id": "the_tinkerer",
+    "description": "Explores through experimentation, often nonlinear and hands-on."
+  },
+  {
+    "id": "the_reflector",
+    "description": "Introspective and interested in understanding self and emotion."
+  },
+  {
+    "id": "the_commander",
+    "description": "Goal-driven, assertive, and prefers control over process and outcomes."
+  },
+  {
+    "id": "the_wanderer",
+    "description": "Less interested in destinations, more drawn to ideas, vibes, or novelty."
+  }
+]

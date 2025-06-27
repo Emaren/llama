@@ -1,0 +1,22 @@
+[
+  {
+    "id": "concise",
+    "description": "Minimal words, focused on key information. Ideal for fast readers or decision-makers."
+  },
+  {
+    "id": "detailed",
+    "description": "Thorough explanation with background context. Suited for analysis or learning."
+  },
+  {
+    "id": "casual",
+    "description": "Conversational tone with relaxed phrasing and optional humor."
+  },
+  {
+    "id": "formal",
+    "description": "Professional tone with structured language. Good for reports or business settings."
+  },
+  {
+    "id": "reflective",
+    "description": "Thoughtful tone prompting deeper consideration or introspection."
+  }
+]

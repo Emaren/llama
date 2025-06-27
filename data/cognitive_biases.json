@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Confirmation Bias",
+    "description": "Tendency to favor information that confirms existing beliefs."
+  },
+  {
+    "name": "Anchoring",
+    "description": "Relying too heavily on the first piece of information encountered."
+  },
+  {
+    "name": "Availability Heuristic",
+    "description": "Overestimating the importance of information that comes to mind easily."
+  },
+  {
+    "name": "Dunning-Kruger Effect",
+    "description": "Overestimating one's competence in unfamiliar areas."
+  },
+  {
+    "name": "Negativity Bias",
+    "description": "Giving more weight to negative experiences over positive ones."
+  }
+]

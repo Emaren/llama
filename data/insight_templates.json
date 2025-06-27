@@ -1,0 +1,14 @@
+[
+  {
+    "id": "session_summary",
+    "template": "Today’s interaction focused on {{topic}}. The user’s mood appeared {{mood}}, and engagement level was {{engagement_level}}."
+  },
+  {
+    "id": "progress_update",
+    "template": "Compared to the previous session, {{change_description}}. Notable patterns include: {{patterns}}."
+  },
+  {
+    "id": "feedback_analysis",
+    "template": "User feedback indicates a trend of {{feedback_trend}}, particularly in the context of {{topic}}."
+  }
+]

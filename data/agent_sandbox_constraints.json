@@ -1,0 +1,22 @@
+[
+  {
+    "id": "no_external_io",
+    "description": "Agent cannot read from or write to external systems, files, or APIs."
+  },
+  {
+    "id": "memory_isolation",
+    "description": "Access to shared or persistent memory is disabled or strictly limited."
+  },
+  {
+    "id": "execution_time_limit",
+    "description": "Agent must complete reasoning or output generation within a fixed time window."
+  },
+  {
+    "id": "action_whitelisting",
+    "description": "Only a predefined set of operations are permitted during sandbox execution."
+  },
+  {
+    "id": "observation_only_mode",
+    "description": "Agent may monitor inputs and internal processes but cannot influence outputs."
+  }
+]

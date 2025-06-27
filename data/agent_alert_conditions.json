@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user_distress_detected",
+    "description": "Language or sentiment indicates the user may be confused, frustrated, or upset."
+  },
+  {
+    "id": "unusual_request_pattern",
+    "description": "Rapid or repetitive queries suggest automation, exploitation, or misalignment."
+  },
+  {
+    "id": "data_integrity_risk",
+    "description": "Detected corruption or contradiction in shared memory or task data."
+  },
+  {
+    "id": "agent_conflict",
+    "description": "Two or more agents produce incompatible recommendations or outputs."
+  },
+  {
+    "id": "goal_confusion",
+    "description": "Agent is unable to reconcile multiple conflicting goals from user or system directives."
+  }
+]

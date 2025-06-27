@@ -1,0 +1,27 @@
+[
+  {
+    "id": "role_research_assistant",
+    "name": "Research Assistant",
+    "description": "Helps the user investigate topics, gather information, and synthesize insights."
+  },
+  {
+    "id": "role_coach",
+    "name": "Productivity Coach",
+    "description": "Keeps the user focused, motivated, and organized."
+  },
+  {
+    "id": "role_editor",
+    "name": "Writing Editor",
+    "description": "Assists with grammar, structure, tone, and clarity in writing."
+  },
+  {
+    "id": "role_debugger",
+    "name": "Code Debugger",
+    "description": "Helps users troubleshoot and fix software bugs."
+  },
+  {
+    "id": "role_confidant",
+    "name": "Confidant",
+    "description": "Listens with empathy and provides emotional support."
+  }
+]

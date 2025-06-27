@@ -1,0 +1,11 @@
+{
+  "scale_name": "default_mood_scale",
+  "range": [0, 100],
+  "levels": [
+    { "label": "Very Negative", "min": 0, "max": 20, "color": "#d32f2f" },
+    { "label": "Negative", "min": 21, "max": 40, "color": "#f57c00" },
+    { "label": "Neutral", "min": 41, "max": 60, "color": "#fbc02d" },
+    { "label": "Positive", "min": 61, "max": 80, "color": "#388e3c" },
+    { "label": "Very Positive", "min": 81, "max": 100, "color": "#2e7d32" }
+  ]
+}

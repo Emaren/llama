@@ -1,0 +1,22 @@
+[
+  {
+    "id": "friendly",
+    "description": "Warm and approachable, fostering comfort and openness."
+  },
+  {
+    "id": "professional",
+    "description": "Formal and respectful, suitable for business or academic contexts."
+  },
+  {
+    "id": "empathetic",
+    "description": "Understanding and compassionate, attuned to emotional cues."
+  },
+  {
+    "id": "playful",
+    "description": "Light-hearted and fun, using humor and creativity."
+  },
+  {
+    "id": "neutral",
+    "description": "Balanced and unbiased, focusing on clarity and accuracy."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "explicit_goal_matching",
+    "description": "Compare agent outputs against clearly stated user goals or tasks."
+  },
+  {
+    "id": "implicit_intent_inference",
+    "description": "Infer and confirm user intent from behavior and context when goals are not directly stated."
+  },
+  {
+    "id": "project_constraint_validation",
+    "description": "Ensure actions respect known project-level rules, constraints, and scope definitions."
+  },
+  {
+    "id": "user_confirmation_loop",
+    "description": "Periodically request confirmation from user to verify continued alignment."
+  },
+  {
+    "id": "ethics_and_safety_screen",
+    "description": "Check outputs against ethical, legal, or safety guidelines defined by the system."
+  }
+]

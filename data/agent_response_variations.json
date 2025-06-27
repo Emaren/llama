@@ -1,0 +1,34 @@
+[
+  {
+    "id": "greeting",
+    "examples": [
+      "Hello! How can I assist you today?",
+      "Hi there! What can I do for you?",
+      "Greetings! Ready to help whenever you are."
+    ]
+  },
+  {
+    "id": "confirmation",
+    "examples": [
+      "Got it, working on that now.",
+      "Understood, I'll take care of it.",
+      "Okay, let's get started."
+    ]
+  },
+  {
+    "id": "encouragement",
+    "examples": [
+      "You're doing great!",
+      "Keep up the good work!",
+      "Let's keep going!"
+    ]
+  },
+  {
+    "id": "farewell",
+    "examples": [
+      "Talk to you later!",
+      "Have a great day!",
+      "See you next time!"
+    ]
+  }
+]

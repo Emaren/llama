@@ -1,0 +1,22 @@
+[
+  {
+    "id": "formal",
+    "description": "Polished, professional language suitable for business, academic, or official settings."
+  },
+  {
+    "id": "neutral",
+    "description": "Clear and accessible language appropriate for most audiences."
+  },
+  {
+    "id": "informal",
+    "description": "Casual tone with contractions and conversational phrasing."
+  },
+  {
+    "id": "technical",
+    "description": "Specialized vocabulary and precision for expert audiences or domain-specific contexts."
+  },
+  {
+    "id": "playful",
+    "description": "Light, creative, and expressive — good for friendly rapport or creative work."
+  }
+]

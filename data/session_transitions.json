@@ -1,0 +1,27 @@
+[
+  {
+    "from": "initiation",
+    "to": "exploration",
+    "trigger": "user begins elaborating on their question or context"
+  },
+  {
+    "from": "exploration",
+    "to": "focus",
+    "trigger": "user picks a direction, goal, or asks for help deciding"
+  },
+  {
+    "from": "focus",
+    "to": "wrap_up",
+    "trigger": "goal appears near completion, user confirms or agent offers summary"
+  },
+  {
+    "from": "any",
+    "to": "idle",
+    "trigger": "no user input for a predefined duration"
+  },
+  {
+    "from": "idle",
+    "to": "reengagement",
+    "trigger": "agent attempts to resume based on prior context or reengagement strategy"
+  }
+]

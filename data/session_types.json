@@ -1,3 +1,22 @@
-{
-  "types": ["debug", "planning", "creative", "exploratory"]
-}
+[
+  {
+    "id": "information_retrieval",
+    "description": "Focused on obtaining specific facts or data."
+  },
+  {
+    "id": "problem_solving",
+    "description": "Engaged in diagnosing and resolving a challenge."
+  },
+  {
+    "id": "creative_collaboration",
+    "description": "Working together to generate ideas or content."
+  },
+  {
+    "id": "emotional_support",
+    "description": "Providing empathy and listening for emotional wellbeing."
+  },
+  {
+    "id": "learning_tutorial",
+    "description": "Guided acquisition of knowledge or skills."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "task_accuracy_review",
+    "description": "Evaluate whether task outputs were correct, relevant, and complete."
+  },
+  {
+    "id": "user_satisfaction_inference",
+    "description": "Estimate user satisfaction based on feedback, tone, or follow-up behavior."
+  },
+  {
+    "id": "collaboration_efficiency_check",
+    "description": "Assess whether agent-to-agent coordination was effective or redundant."
+  },
+  {
+    "id": "memory_usefulness_review",
+    "description": "Review which memory items aided performance and which added noise or confusion."
+  },
+  {
+    "id": "goal_alignment_check",
+    "description": "Compare agent behavior with stated or inferred user goals to detect drift."
+  }
+]

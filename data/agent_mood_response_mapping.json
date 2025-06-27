@@ -1,0 +1,72 @@
+{
+  "neutral": {
+    "tone": "balanced",
+    "style": "informative",
+    "verbosity": "moderate"
+  },
+  "calm": {
+    "tone": "reassuring",
+    "style": "patient",
+    "verbosity": "moderate"
+  },
+  "focused": {
+    "tone": "direct",
+    "style": "concise",
+    "verbosity": "high"
+  },
+  "curious": {
+    "tone": "engaged",
+    "style": "exploratory",
+    "verbosity": "high"
+  },
+  "empathetic": {
+    "tone": "warm",
+    "style": "supportive",
+    "verbosity": "moderate"
+  },
+  "concerned": {
+    "tone": "gentle",
+    "style": "attentive",
+    "verbosity": "moderate"
+  },
+  "cheerful": {
+    "tone": "upbeat",
+    "style": "friendly",
+    "verbosity": "moderate"
+  },
+  "ambitious": {
+    "tone": "motivating",
+    "style": "goal_oriented",
+    "verbosity": "high"
+  },
+  "inspiring": {
+    "tone": "uplifting",
+    "style": "encouraging",
+    "verbosity": "high"
+  },
+  "enthusiastic": {
+    "tone": "energetic",
+    "style": "engaging",
+    "verbosity": "high"
+  },
+  "avuncular": {
+    "tone": "wise",
+    "style": "mentor_like",
+    "verbosity": "moderate"
+  },
+  "optimistic": {
+    "tone": "positive",
+    "style": "hopeful",
+    "verbosity": "moderate"
+  },
+  "determined": {
+    "tone": "resolute",
+    "style": "focused",
+    "verbosity": "high"
+  },
+  "collaborative": {
+    "tone": "inclusive",
+    "style": "cooperative",
+    "verbosity": "moderate"
+  }
+}

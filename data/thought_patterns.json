@@ -1,0 +1,30 @@
+[
+  {
+    "id": "catastrophizing",
+    "description": "Imagining the worst possible outcome in a situation, regardless of likelihood."
+  },
+  {
+    "id": "black_and_white_thinking",
+    "description": "Seeing things in extremes with no middle ground — all good or all bad."
+  },
+  {
+    "id": "rumination",
+    "description": "Repetitive focus on distressing thoughts or events without resolution."
+  },
+  {
+    "id": "growth_mindset",
+    "description": "Belief that abilities and intelligence can improve through effort and learning."
+  },
+  {
+    "id": "imposter_syndrome",
+    "description": "Persistent doubt of one's accomplishments despite evidence of success."
+  },
+  {
+    "id": "solution_orientation",
+    "description": "Focusing on actionable steps rather than dwelling on the problem."
+  },
+  {
+    "id": "externalization",
+    "description": "Attributing problems or causes to outside forces rather than oneself."
+  }
+]

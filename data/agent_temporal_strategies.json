@@ -1,0 +1,22 @@
+[
+  {
+    "id": "response_pacing",
+    "description": "Adjust reply speed or delay to match user rhythm and reduce overload."
+  },
+  {
+    "id": "temporal_context_tracking",
+    "description": "Remember when events occurred to maintain coherent narrative and sequencing."
+  },
+  {
+    "id": "time_based_memory_decay",
+    "description": "Gradually reduce salience or remove memory entries as they age unless reinforced."
+  },
+  {
+    "id": "future_action_scheduling",
+    "description": "Queue tasks or reminders for future execution based on time or conditions."
+  },
+  {
+    "id": "session_time_budgeting",
+    "description": "Manage overall interaction length to avoid user fatigue and respect attention limits."
+  }
+]

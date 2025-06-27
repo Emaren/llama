@@ -1,0 +1,26 @@
+[
+  {
+    "id": "explicit_positive_feedback",
+    "description": "User clearly expresses satisfaction or praise."
+  },
+  {
+    "id": "task_completion_detected",
+    "description": "Agent infers success based on closure of task or confirmed goal."
+  },
+  {
+    "id": "continued_engagement",
+    "description": "User remains active and responsive, indicating value in the interaction."
+  },
+  {
+    "id": "follow_up_question",
+    "description": "User builds upon the agent's answer, signaling relevance or trust."
+  },
+  {
+    "id": "tone_match_acknowledged",
+    "description": "User responds favorably to agent tone or emotional alignment."
+  },
+  {
+    "id": "user_reuse",
+    "description": "Agent is invoked again by the same user in a short timeframe."
+  }
+]

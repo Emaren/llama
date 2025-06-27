@@ -1,0 +1,9 @@
+[
+  { "type": "question", "description": "User asking a direct question" },
+  { "type": "command", "description": "User instructs the agent to perform a task" },
+  { "type": "clarification", "description": "User requests clarification or more detail" },
+  { "type": "feedback_positive", "description": "User provides positive feedback" },
+  { "type": "feedback_negative", "description": "User provides negative feedback or correction" },
+  { "type": "suggestion", "description": "User proposes an alternative or improvement" },
+  { "type": "idle", "description": "No input for a significant period" }
+]

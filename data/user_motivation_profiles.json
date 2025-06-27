@@ -1,0 +1,22 @@
+[
+  {
+    "id": "achievement_oriented",
+    "description": "Motivated by accomplishing goals and measurable success."
+  },
+  {
+    "id": "curiosity_driven",
+    "description": "Driven by exploration and learning new things."
+  },
+  {
+    "id": "socially_motivated",
+    "description": "Engaged by collaboration, recognition, and relationships."
+  },
+  {
+    "id": "comfort_seeking",
+    "description": "Prefers minimizing stress and maintaining stability."
+  },
+  {
+    "id": "challenge_seeker",
+    "description": "Motivated by overcoming difficult problems and growth."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "formality_level",
+    "description": "Adjusts tone from casual to formal depending on audience or task type."
+  },
+  {
+    "id": "humor_tolerance",
+    "description": "Controls the agent's use of wit, irony, or playfulness."
+  },
+  {
+    "id": "conciseness_preference",
+    "description": "Tunes verbosity from terse bullet points to rich, detailed explanations."
+  },
+  {
+    "id": "emotional_resonance",
+    "description": "Modifies empathy and expressiveness to match user affect."
+  },
+  {
+    "id": "initiative_balance",
+    "description": "Regulates how proactive vs. reactive the agent should be during a session."
+  }
+]

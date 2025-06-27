@@ -1,0 +1,27 @@
+[
+  {
+    "id": "positive",
+    "label": "Positive",
+    "description": "Affirmation that the response or behavior was helpful or correct."
+  },
+  {
+    "id": "negative",
+    "label": "Negative",
+    "description": "Indication that the response was unhelpful, incorrect, or unsatisfying."
+  },
+  {
+    "id": "suggestion",
+    "label": "Suggestion",
+    "description": "Proposed improvement or alternative to the agent's output."
+  },
+  {
+    "id": "correction",
+    "label": "Correction",
+    "description": "Direct amendment to a factual or interpretive error."
+  },
+  {
+    "id": "neutral",
+    "label": "Neutral",
+    "description": "Feedback provided without positive or negative judgment."
+  }
+]

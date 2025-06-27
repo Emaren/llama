@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fragment_001",
+    "label": "User prefers concise answers",
+    "tags": ["style", "preference"],
+    "priority": 10
+  },
+  {
+    "id": "fragment_002",
+    "label": "User is working on an LLM agent project",
+    "tags": ["project", "context"],
+    "priority": 9
+  },
+  {
+    "id": "fragment_003",
+    "label": "Current focus: data/ directory file population",
+    "tags": ["workflow", "task"],
+    "priority": 8
+  }
+]

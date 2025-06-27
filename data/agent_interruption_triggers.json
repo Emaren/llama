@@ -1,0 +1,22 @@
+[
+  {
+    "trigger": "user_requests_pause",
+    "phrases": ["wait", "hold on", "stop"],
+    "description": "User asks agent to pause or hold output."
+  },
+  {
+    "trigger": "user_corrects_agent",
+    "phrases": ["that's not right", "no, actually", "you got it wrong"],
+    "description": "User points out an error or disagrees."
+  },
+  {
+    "trigger": "topic_change",
+    "phrases": ["new topic", "let's change subject", "different question"],
+    "description": "User signals desire to change the discussion focus."
+  },
+  {
+    "trigger": "user_silence",
+    "timeout_seconds": 30,
+    "description": "User inactivity for a period triggers agent prompt or pause."
+  }
+]

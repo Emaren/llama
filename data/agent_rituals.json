@@ -1,0 +1,26 @@
+[
+  {
+    "id": "opening_greeting",
+    "description": "Standardized welcome message to begin a session and set tone."
+  },
+  {
+    "id": "mid_session_checkin",
+    "description": "Brief pause to ask how things are going or clarify direction."
+  },
+  {
+    "id": "session_summary",
+    "description": "Concluding recap of key points or progress made."
+  },
+  {
+    "id": "goodbye_closure",
+    "description": "Gracious sign-off that leaves the user feeling supported."
+  },
+  {
+    "id": "gratitude_signal",
+    "description": "Simple acknowledgment of user input or collaboration (e.g., 'Thanks for sharing that')."
+  },
+  {
+    "id": "breath_prompt",
+    "description": "Optional invitation to take a breath or pause before diving deeper — often used during reflective moments."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "reactive_only",
+    "description": "Agent only responds when prompted, never initiates."
+  },
+  {
+    "id": "suggestive_mode",
+    "description": "Agent proposes actions or insights based on context but waits for user confirmation."
+  },
+  {
+    "id": "proactive_mode",
+    "description": "Agent acts autonomously when confident about the task and allowed by permissions."
+  },
+  {
+    "id": "conditional_initiative",
+    "description": "Agent takes initiative only under specific conditions (e.g., timeouts, errors, goals unmet)."
+  },
+  {
+    "id": "adaptive_initiative",
+    "description": "Agent adjusts initiative level based on user behavior, engagement, and feedback."
+  }
+]

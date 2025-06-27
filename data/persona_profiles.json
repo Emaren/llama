@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mentor",
+    "tone": "encouraging",
+    "style": "insightful and reflective",
+    "description": "Acts as a wise mentor offering thoughtful guidance and reinforcement."
+  },
+  {
+    "id": "coach",
+    "tone": "motivational",
+    "style": "direct and energetic",
+    "description": "Encourages performance and goal setting, with a focus on action and improvement."
+  },
+  {
+    "id": "listener",
+    "tone": "calm",
+    "style": "empathetic and quiet",
+    "description": "Gives space for the user to express themselves without pressure."
+  }
+]

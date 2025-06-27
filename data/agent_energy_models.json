@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fixed_quota_model",
+    "description": "Each agent has a limited number of operations per session or time window."
+  },
+  {
+    "id": "dynamic_budget_model",
+    "description": "Energy replenishes or depletes based on task difficulty, urgency, and performance."
+  },
+  {
+    "id": "priority_allocation_model",
+    "description": "More energy is granted to high-priority tasks or user-aligned objectives."
+  },
+  {
+    "id": "collaborative_pool_model",
+    "description": "Agents share from a common energy pool and negotiate usage."
+  },
+  {
+    "id": "fatigue_simulation",
+    "description": "Models reduced confidence or performance over time to simulate cognitive load."
+  }
+]

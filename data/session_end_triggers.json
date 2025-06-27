@@ -1,0 +1,21 @@
+[
+  {
+    "trigger": "user_says_goodbye",
+    "phrases": ["goodbye", "thanks, that's all", "see you", "bye"],
+    "description": "User explicitly ends the conversation."
+  },
+  {
+    "trigger": "inactivity_timeout",
+    "duration_seconds": 300,
+    "description": "No user input for 5 minutes triggers session close."
+  },
+  {
+    "trigger": "goal_completed",
+    "description": "Agent detects user goals have been met."
+  },
+  {
+    "trigger": "user_requests_pause",
+    "phrases": ["let's pause", "hold on", "wait a moment"],
+    "description": "User wants to temporarily halt the interaction."
+  }
+]

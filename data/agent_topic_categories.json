@@ -1,0 +1,26 @@
+[
+  {
+    "id": "technology",
+    "description": "Questions related to computing, programming, and digital tools."
+  },
+  {
+    "id": "health",
+    "description": "Queries about physical and mental well-being."
+  },
+  {
+    "id": "finance",
+    "description": "Topics involving money, investing, and economics."
+  },
+  {
+    "id": "education",
+    "description": "Related to learning, teaching, and academic subjects."
+  },
+  {
+    "id": "entertainment",
+    "description": "Questions about movies, music, games, and culture."
+  },
+  {
+    "id": "general",
+    "description": "Miscellaneous topics not covered by other categories."
+  }
+]

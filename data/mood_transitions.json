@@ -1,0 +1,27 @@
+[
+  {
+    "from": "neutral",
+    "to": "positive",
+    "trigger": "user shares good news or expresses satisfaction"
+  },
+  {
+    "from": "neutral",
+    "to": "negative",
+    "trigger": "user expresses frustration or disappointment"
+  },
+  {
+    "from": "positive",
+    "to": "neutral",
+    "trigger": "conversation shifts to factual or task-oriented topics"
+  },
+  {
+    "from": "negative",
+    "to": "neutral",
+    "trigger": "user reorients focus to problem-solving or solution-finding"
+  },
+  {
+    "from": "positive",
+    "to": "negative",
+    "trigger": "user raises concerns or encounters setbacks"
+  }
+]

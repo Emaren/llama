@@ -1,0 +1,18 @@
+[
+  {
+    "level": "high",
+    "description": "User actively participates, responds promptly, and provides detailed input."
+  },
+  {
+    "level": "medium",
+    "description": "User interacts regularly but with moderate detail and pace."
+  },
+  {
+    "level": "low",
+    "description": "User responds sporadically, with brief or minimal input."
+  },
+  {
+    "level": "disengaged",
+    "description": "User shows little to no response or interest."
+  }
+]

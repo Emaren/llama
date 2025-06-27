@@ -1,0 +1,17 @@
+[
+  {
+    "goal": "Summarize user session",
+    "tags": ["reflection", "summary"],
+    "priority": "medium"
+  },
+  {
+    "goal": "Escalate support request",
+    "tags": ["support", "urgent"],
+    "priority": "high"
+  },
+  {
+    "goal": "Track user engagement trends",
+    "tags": ["analytics", "tracking"],
+    "priority": "low"
+  }
+]

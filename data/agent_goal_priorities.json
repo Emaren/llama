@@ -1,0 +1,27 @@
+[
+  {
+    "goal": "ensure_user_understanding",
+    "priority": "high",
+    "description": "Make sure user comprehends information or instructions."
+  },
+  {
+    "goal": "maintain_engagement",
+    "priority": "medium",
+    "description": "Keep user interested and responsive throughout the session."
+  },
+  {
+    "goal": "provide_accurate_info",
+    "priority": "high",
+    "description": "Deliver factually correct and relevant content."
+  },
+  {
+    "goal": "adapt_to_user_emotion",
+    "priority": "medium",
+    "description": "Adjust tone and style based on detected user mood."
+  },
+  {
+    "goal": "optimize_response_time",
+    "priority": "low",
+    "description": "Respond quickly without compromising quality."
+  }
+]

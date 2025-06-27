@@ -1,0 +1,30 @@
+[
+  {
+    "id": "boot_success",
+    "description": "Agent initialized all core modules without errors."
+  },
+  {
+    "id": "first_user_interaction",
+    "description": "Agent successfully completed its first user-facing exchange."
+  },
+  {
+    "id": "memory_access_verified",
+    "description": "Agent read from and wrote to memory correctly."
+  },
+  {
+    "id": "goal_state_detected",
+    "description": "Agent correctly inferred or accepted a user goal."
+  },
+  {
+    "id": "self_correction_triggered",
+    "description": "Agent initiated a reflective correction without user prompt."
+  },
+  {
+    "id": "long_session_completed",
+    "description": "Agent supported an extended, multi-phase conversation without failure."
+  },
+  {
+    "id": "adaptive_response_generated",
+    "description": "Agent modified tone, pacing, or depth based on user cues."
+  }
+]

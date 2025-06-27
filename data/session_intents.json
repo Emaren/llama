@@ -1,0 +1,22 @@
+[
+  {
+    "id": "request_information",
+    "description": "User wants factual data or explanations."
+  },
+  {
+    "id": "seek_advice",
+    "description": "User asks for recommendations or guidance."
+  },
+  {
+    "id": "express_emotion",
+    "description": "User shares feelings or personal experiences."
+  },
+  {
+    "id": "request_action",
+    "description": "User wants the agent to perform a specific task."
+  },
+  {
+    "id": "clarify_understanding",
+    "description": "User asks questions to ensure comprehension."
+  }
+]
