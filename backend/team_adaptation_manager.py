@@ -1,11 +1,17 @@
+# backend/team_adaptation_manager.py
+# Handles adaptive behavior for teams based on context and performance
+
 class TeamAdaptationManager:
     def __init__(self):
         self.adaptations = {}
 
-    def record_adaptation(self, agent_name, adaptation):
-        if agent_name not in self.adaptations:
-            self.adaptations[agent_name] = []
-        self.adaptations[agent_name].append(adaptation)
+    def add_adaptation(self, team_id, adaptation):
+        self.adaptations[team_id] = adaptation
 
-    def get_adaptations(self, agent_name):
-        return self.adaptations.get(agent_name, [])
+    def get_adaptation(self, team_id):
+        return self.adaptations.get(team_id, None)
+
+    def remove_adaptation(self, team_id):
+        if team_id in self.adaptations:
+            del self.adaptations[team_id]
+

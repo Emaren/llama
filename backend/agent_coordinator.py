@@ -1,38 +1,22 @@
-\"\"\"
-agent_coordinator.py – Central hub that initializes and orchestrates core agents,
-dispatches tasks to modules based on scope, type, and system state.
-\"\"\"
-
-from backend.module_dispatcher import ModuleDispatcher
-from backend.agent_scheduler import AgentScheduler
-from backend.config_manager import ConfigManager
-from backend.health_checker import HealthChecker
-from backend.feedback_tracker import FeedbackTracker
-from backend.context_scope_analyzer import ContextScopeAnalyzer
-from shared.constants import SYSTEM_BOOT_SEQUENCE
+# backend/agent_coordinator.py
+# Central coordinator to manage and orchestrate agents
 
 class AgentCoordinator:
     def __init__(self):
-        self.config = ConfigManager().load_config()
-        self.dispatcher = ModuleDispatcher()
-        self.scheduler = AgentScheduler()
-        self.health_checker = HealthChecker()
-        self.feedback_tracker = FeedbackTracker()
-        self.scope_analyzer = ContextScopeAnalyzer()
+        self.agents = {}
 
-    def initialize_system(self):
-        print("[AgentCoordinator] Booting agents...")
-        for agent in SYSTEM_BOOT_SEQUENCE:
-            self.scheduler.schedule(agent)
-        print("[AgentCoordinator] Boot complete.")
+    def register_agent(self, agent_id, agent):
+        self.agents[agent_id] = agent
 
-    def handle_input(self, user_input: str, session_id: str):
-        context_scope = self.scope_analyzer.analyze(user_input)
-        task = self.dispatcher.route(user_input, context_scope)
-        result = self.scheduler.execute(task, session_id)
-        self.feedback_tracker.track(session_id, result)
-        return result
+    def unregister_agent(self, agent_id):
+        if agent_id in self.agents:
+            del self.agents[agent_id]
 
-    def run_diagnostics(self):
-        return self.health_checker.check_system()
+    def send_command(self, agent_id, command):
+        if agent_id in self.agents:
+            self.agents[agent_id].execute_command(command)
+
+    def broadcast(self, message):
+        for agent in self.agents.values():
+            agent.receive_message(message)
 
