@@ -1,0 +1,5 @@
+{
+  "add_function": "def {{function_name}}({{params}}):\n    {{body}}\n",
+  "class_template": "class {{class_name}}:\n    def __init__(self, {{params}}):\n        {{init_body}}\n",
+  "test_template": "def test_{{test_name}}():\n    assert {{assertion}}\n"
+}

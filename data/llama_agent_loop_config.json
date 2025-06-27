@@ -1,0 +1,7 @@
+{
+  "enable_reflection": true,
+  "enable_code_editing": true,
+  "max_iterations_per_session": 100,
+  "auto_save_interval_seconds": 60,
+  "logging_level": "INFO"
+}

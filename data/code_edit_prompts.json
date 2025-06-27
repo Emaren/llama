@@ -1,0 +1,18 @@
+[
+  {
+    "id": "add_feature",
+    "example": "Add a feature that logs user activity."
+  },
+  {
+    "id": "fix_bug",
+    "example": "Fix the bug causing crashes on startup."
+  },
+  {
+    "id": "refactor_module",
+    "example": "Refactor the memory_scoper module for clarity."
+  },
+  {
+    "id": "update_docs",
+    "example": "Update documentation for the prompt strategy manager."
+  }
+]
