@@ -1,0 +1,12 @@
+{
+  "weekly_review": [
+    "What did I do well this week?",
+    "What could I improve?",
+    "What new patterns or feedback did I notice?"
+  ],
+  "monthly_retrospective": [
+    "What major shifts happened?",
+    "How have I grown or changed?",
+    "What will I do differently next month?"
+  ]
+}

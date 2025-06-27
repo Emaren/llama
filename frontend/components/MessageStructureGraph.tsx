@@ -1,0 +1,1 @@
+# Placeholder for MessageStructureGraph.tsx

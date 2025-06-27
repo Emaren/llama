@@ -1,0 +1,4 @@
+{
+  "reflection_frequency": "weekly",
+  "prompt_templates": ["What did I learn this week?", "What mistakes did I make and why?"]
+}

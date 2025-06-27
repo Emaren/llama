@@ -1,0 +1,4 @@
+{
+  "aoe2hd": {"accuracy": 0.91, "depth": 0.87},
+  "wolochain": {"accuracy": 0.88, "depth": 0.92}
+}
