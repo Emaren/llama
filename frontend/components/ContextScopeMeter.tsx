@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 interface Props {
-  currentTokens: number;
   maxTokens: number;
+  currentTokens: number;
 }
 
-const ContextScopeMeter: React.FC<Props> = ({ currentTokens, maxTokens }) => {
-  const percentUsed = (currentTokens / maxTokens) * 100;
+const ContextScopeMeter: React.FC<Props> = ({ maxTokens, currentTokens }) => {
+  const percentage = (currentTokens / maxTokens) * 100;
 
   return (
     <div>
-      <h4>Context Scope Usage</h4>
+      <h3>Context Scope Meter</h3>
       <progress value={currentTokens} max={maxTokens} />
       <p>
-        {currentTokens} / {maxTokens} tokens ({percentUsed.toFixed(1)}%)
+        {currentTokens} / {maxTokens} tokens used ({percentage.toFixed(1)}%)
       </p>
     </div>
   );

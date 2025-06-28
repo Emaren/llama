@@ -1,5 +1,0 @@
-  {
-    "path": "/users/login",
-    "methods": ["POST"],
-    "handler": "auth.login"
-  }

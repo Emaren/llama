@@ -5,17 +5,22 @@ from backend.code_writer import write_code_files
 
 def run_agent_loop():
     """
-    Main autonomous agent loop: listen, plan, reflect, act.
+    Main autonomous agent loop: prompt, plan, write, reflect.
     """
     while True:
-        print("🧠 Agent loop iteration starting...")
-        # Simulate listening for new tasks or prompts (placeholder)
-        prompt = "Simulated prompt input..."
+        print("\n🧠 Agent loop iteration starting...")
+        prompt = input("📝 Enter a prompt (or type 'exit' to quit): ").strip()
+
+        if prompt.lower() in ['exit', 'quit']:
+            print("👋 Exiting agent loop.")
+            break
+
+        if not prompt:
+            print("⚠️ Empty prompt skipped.")
+            continue
 
         plan = plan_code_edits(prompt)
         success, notes = write_code_files(plan)
-
         reflection = reflect_on_interaction(success, notes)
-        print(f"Reflection: {reflection}")
 
-        time.sleep(5)  # Wait before next cycle
+        print(f"🪞 Reflection: {reflection}")

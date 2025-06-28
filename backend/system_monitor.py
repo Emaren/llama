@@ -1,7 +1,7 @@
-\"\"\"
+"""
 system_monitor.py – Monitors system resource usage and error rates
 to maintain operational stability.
-\"\"\"
+"""
 
 import psutil
 import datetime
@@ -29,3 +29,8 @@ class SystemMonitor:
 
     def get_error_log(self) -> list:
         return self.error_log
+
+# Simple callable for boot scripts
+def check_system_status():
+    monitor = SystemMonitor()
+    return monitor.check_resources()

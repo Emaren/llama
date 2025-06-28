@@ -1,5 +1,0 @@
-{
-    "dataset": "train",
-    "features": ["feature1", "feature2", "feature3"],
-    "target": "target"
-}

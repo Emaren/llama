@@ -10,7 +10,7 @@ def start_llama():
     print("🚀 Booting Llama Agent...")
     check_system_status()
     listen_for_prompts()
-    run_agent_loop()
+#    run_agent_loop()
 
 
 if __name__ == "__main__":
