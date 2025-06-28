@@ -1,9 +1,19 @@
 #!/bin/bash
 
-count_py() { find "$1" -type f -name "*.py" 2>/dev/null | wc -l; }
-count_json() { find "$1" -type f -name "*.json" 2>/dev/null | wc -l; }
-count_tsx() { find "$1" -type f -name "*.tsx" 2>/dev/null | wc -l; }
-count_all() { find "$1" -type f ! -name ".*" 2>/dev/null | wc -l; }
+# Find exclusions wrapped in parentheses for proper grouping
+EXCLUDE_PATHS=( \( \
+  -path "./.git*" -o \
+  -path "./venv*" -o \
+  -path "./**/site-packages*" -o \
+  -path "./node_modules*" -o \
+  -path "*/.*" \
+\) -prune )
+
+# Functions to count files by type with exclusions
+count_py()   { find "$1" -type f -name "*.py"   ! "${EXCLUDE_PATHS[@]}" 2>/dev/null | wc -l; }
+count_json() { find "$1" -type f -name "*.json" ! "${EXCLUDE_PATHS[@]}" 2>/dev/null | wc -l; }
+count_tsx()  { find "$1" -type f -name "*.tsx"  ! "${EXCLUDE_PATHS[@]}" 2>/dev/null | wc -l; }
+count_all()  { find "$1" -type f ! -name ".*" ! "${EXCLUDE_PATHS[@]}" 2>/dev/null | wc -l; }
 
 echo "Files count per directory (recursive, includes subfolders):"
 echo "-----------------------------------------------------------"
@@ -13,6 +23,7 @@ declare -a py_counts
 declare -a json_counts
 declare -a tsx_counts
 
+# Only search real code dirs, skipping site-packages etc.
 while IFS= read -r -d '' dir; do
   py=$(count_py "$dir")
   json=$(count_json "$dir")
@@ -21,20 +32,19 @@ while IFS= read -r -d '' dir; do
 
   if (( total > 0 )); then
     printf "%-50s Total files: %5d (py/json/tsx = %3d / %3d / %3d)\n" "$dir" "$total" "$py" "$json" "$tsx"
-
     dirs+=("$dir")
     py_counts+=("$py")
     json_counts+=("$json")
     tsx_counts+=("$tsx")
   fi
-done < <(find . -type d \! -path "./.git*" \! -path "*/.*" -print0)
+done < <(find . -type d ! "${EXCLUDE_PATHS[@]}" -print0)
 
 echo
 echo "Calculating total unique files across repo (no double counting)..."
 echo "-------------------------------------------------------------------"
 
 count_ext() {
-  find . -type f -name "*.$1" ! -path "./.git/*" ! -path "*/.*" | sort -u | wc -l
+  find . -type f -name "*.$1" ! "${EXCLUDE_PATHS[@]}" 2>/dev/null | sort -u | wc -l
 }
 
 py_count=$(count_ext py)
