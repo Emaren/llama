@@ -1,43 +1,88 @@
-from fastapi import FastAPI, Request
+"""
+FastAPI application entry-point
+
+REST
+ ├─ /api/system-vitals
+ ├─ /api/stats/system
+ ├─ /api/stats/llm
+ ├─ /api/agents/health
+ ├─ /api/context
+ ├─ /api/query
+ └─ /api/diagnostics
+WebSocket
+ └─ /logs/agent-events
+"""
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+
 from backend.agent_coordinator import AgentCoordinator
-from backend.routes import ws_agent_events  # ⬅️ Add this
+from backend.routes import (
+    system_vitals_router,
+    stats_system_router,
+    stats_llm_router,
+    agents_health_router,
+    context_tokens_router,
+    ws_agent_events,
+)
 
-app = FastAPI()
-app.include_router(ws_agent_events.router)  # ⬅️ And this
+# ──────────────────────────────  FastAPI + CORS  ────────────────────────────
+app = FastAPI(title="Llama API")
 
-router = None  # Will hold the APIRouter instance
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_origin_regex=".*",
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
+# ───────────────────────────  mount sub-routers  ────────────────────────────
+app.include_router(system_vitals_router,  prefix="/api")
+app.include_router(stats_system_router,   prefix="/api")
+app.include_router(stats_llm_router,      prefix="/api")
+app.include_router(agents_health_router,  prefix="/api")
+app.include_router(context_tokens_router, prefix="/api")
+app.include_router(ws_agent_events)  # WebSocket @ /logs/agent-events
+
+# ─────────────────────────  Facade around coordinator  ──────────────────────
 class UserInput(BaseModel):
     input: str
     session_id: str
 
-class APIRouter:
-    def __init__(self):
+
+class _Facade:
+    def __init__(self) -> None:
         self.coordinator = AgentCoordinator()
         self.coordinator.initialize_system()
 
-    def process_request(self, user_input: str, session_id: str):
-        print(f"[APIRouter] Received input: {user_input}")
-        result = self.coordinator.handle_input(user_input, session_id)
+    def chat(self, text: str, session: str):
         return {
-            "session": session_id,
-            "input": user_input,
-            "output": result
+            "session": session,
+            "input": text,
+            "output": self.coordinator.handle_input(text, session),
         }
 
-    def run_system_diagnostics(self):
+    def diagnostics(self):
         return self.coordinator.run_diagnostics()
 
-@app.on_event("startup")
-def init_router():
-    global router
-    router = APIRouter()
 
+_facade: _Facade | None = None
+
+@app.on_event("startup")
+def _init_facade() -> None:
+    global _facade
+    _facade = _Facade()
+
+# ───────────────────────────────────  REST  ─────────────────────────────────
 @app.post("/api/query")
-async def query(request: UserInput):
-    return router.process_request(request.input, request.session_id)
+async def query(payload: UserInput):
+    assert _facade, "facade not initialised"
+    return _facade.chat(payload.input, payload.session_id)
+
 
 @app.get("/api/diagnostics")
 async def diagnostics():
-    return router.run_system_diagnostics()
+    assert _facade, "facade not initialised"
+    return _facade.diagnostics()

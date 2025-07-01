@@ -1,36 +1,44 @@
 # backend/routes/ws_agent_events.py
 
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
+import asyncio, json
 from datetime import datetime
-import asyncio
-import json
 
-router = APIRouter()
+router = APIRouter(prefix="/logs/agent-events")
+connected_clients: set[WebSocket] = set()
 
-# Store connected clients
-connected_clients = set()
-
-@router.websocket("/logs/agent-events")
+@router.websocket("")
 async def agent_events(websocket: WebSocket):
     await websocket.accept()
+    print("🧠 WebSocket connection accepted")
     connected_clients.add(websocket)
+
     try:
         while True:
-            await asyncio.sleep(3)  # Simulate periodic agent logs
+            # Prevent timeout — read from client or timeout
+            try:
+                await asyncio.wait_for(websocket.receive_text(), timeout=1.0)
+            except asyncio.TimeoutError:
+                pass  # normal behavior — just keeps connection alive
+
+            # Simulated message (every second)
             event = {
                 "agent": "GoalOptimizer",
                 "timestamp": datetime.utcnow().isoformat() + "Z",
                 "message": "Reprioritized tasks based on engagement."
             }
-            # Broadcast to all connected clients
-            disconnected = []
+            data = json.dumps(event)
+            print("📤 Broadcasting:", data)
+
+            dead = []
             for client in connected_clients:
                 try:
-                    await client.send_text(json.dumps(event))
+                    await client.send_text(data)
                 except WebSocketDisconnect:
-                    disconnected.append(client)
-            # Clean up disconnected clients
-            for dc in disconnected:
-                connected_clients.remove(dc)
+                    dead.append(client)
+            for d in dead:
+                connected_clients.discard(d)
+
     except WebSocketDisconnect:
-        connected_clients.remove(websocket)
+        print("❌ Client closed WebSocket")
+        connected_clients.discard(websocket)
